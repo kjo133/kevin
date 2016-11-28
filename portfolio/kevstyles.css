@@ -35,11 +35,41 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+
+.home{
+    /*padding-top: 50px; 
+     If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! 
+    padding-bottom: 50px;
+    */
+    height: 100%; width: 100%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(images/designhome2.png) no-repeat center center;
+    background-size: cover;
+}
+#title{
+  color: #305ba0;
+  padding-top: 0;
+}
+
+.introButton{
+  height: 150px; width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.aboutText{
+  font-size: 25px;
+}
+
+.work{
+  background-color: #305ba0;
+  color: white;
+}
+
 /* additional sections */
-#home {
-  font-family: 'Trajan Pro Bold';
-  background: url(images/debutBW.JPG) no-repeat center center fixed;
-  display: table;
+/*#home {
+  background: url(images/designHome.png) no-repeat center center fixed;
   height: 100%;
   position: relative;
   width: 100%;
@@ -48,169 +78,15 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-#mainTitle {
-  /*background-color: rgba(0, 0, 0, 0.2);*/
-/*  text-align: left;
-  margin-left: 300px;*/
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-  font-size: 70px;
-   -webkit-transition: font-size .2s;
-   -moz-transition: font-size .2s;
-   -o-transition: font-size .2s;
-   transition: font-size .2s;
-
-
-  &:hover{
-    font-size: 80px;
-  }
-}
-
-.underline{
-  position: relative;
-  color: white;
-}
-
-.underline:after{
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 0;
-  height: 3px;
-  background-color: white;
-  content: "";
-  transition: width 0.2s;
-}
-
-.underline:hover {
-  color: white;
-}
-.underline:hover:after {
-  width: 100%;
-
-}
-/*.shape {
-  stroke-dasharray:  10;
-  stroke-dashoffset: 10;
-  stroke-width: 8px;
-  fill: transparent;
-  stroke: #19f6e8;
-  border-bottom: 5px solid black;
-  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-}
-.text {
-  font-size: 40px;
-  line-height: 32px;
-  letter-spacing: 8px;
-  color: #fff;
-  top: -48px;
-  position: relative;
-}
-.svg-wrapper:hover .shape {
-  stroke-width: 8px;
-  stroke-dashoffset: 0;
-  stroke-dasharray: 2000;
 }*/
-
-
-
-
-
-
-.svg-wrapper:hover .shape {
-  -webkit-animation: 0.5s draw linear forwards;
-  animation: 0.5s draw linear forwards;
+#mainTitle {
+  background-color: rgba(0, 0, 0, 0.2);
 }
-
 #about {
   font-family: 'Trajan Pro Bold';
   background-color: black;
   color: white;
 }
-
-
-
-/*upcoming events*/
-.upcoming{
-  a, a:link, a:visited{
-    text-decoration: none;
-
-    h3{
-      text-align: center;
-      color:white;
-    }
-
-  }
-}
-
-.eventLink{
-  position: relative;
-  color: white;
-  &:after{
-    content:'';
-    position: absolute;
-    bottom: -.4em;
-    left: 50%;
-    right: 50%;
-    height: 1px;
-    background: white;
-    transition: all ease .2s;
-    color:blue;
-  }
-  &:hover:after{
-    left: 0;
-    right: 0;
-    height: 5px;
-  }
-    &:before {
-    position: absolute;
-    transform: translateX(-100%);
-    left: -10px;
-    color: #eee;
-    opacity: .3;
-    font-weight: 100;
-    font-size: .8em;
-  }
-}
-
-/*a,a:visited,a:hover,a:active{
-  -webkit-backface-visibility:hidden;
-          backface-visibility:hidden;
-  position:relative;
-  transition:0.5s color ease;
-  text-decoration:none;
-  color:#81b3d2;
-  font-size:2.5em;
-}
-a:hover{
-  color:red;
-}
-a.before:before,a.after:after{
-  content: "";
-  transition:0.5s all ease;
-  -webkit-backface-visibility:hidden;
-          backface-visibility:hidden;
-  position:absolute;
-}
-a.before:before{
-  top:-0.25em;
-}
-a.after:after{
-  bottom:-0.25em;
-}
-a.before:before,a.after:after{
-  height:5px;
-  height:0.35rem;
-  width:0;
-  background:#d73444;
-}
-a.first:after{
-  left:0;
-}*/
-
-
 #journey {
   /*background-color: #306d9f;*/
   background-color: black;
