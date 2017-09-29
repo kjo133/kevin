@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kevin Olson</title>
+    <title>Kevin Olson Music</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <!--my stylesheet -->
     <link rel="stylesheet" href="kevstyles.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
   </head>
   <body>
 
@@ -40,6 +41,7 @@
         <li><a href="#music">Music</a></li>
         <li><a href="#journey">Blog</a></li>
         <li><a href="#videos">Videos</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -72,11 +74,13 @@
 
          <!--    <a href="http://www.facebook.com/kevinolsonmusic" target="_blank"><img src="images/facebookicon.png"></a> -->
 
-            <p class="lead"><a href="http://www.facebook.com/kevinolsonmusic" target="_blank">Facebook</a> 
-            ||
-            <a href="https://www.youtube.com/user/golf4life120" target="_blank">YouTube</a>
-            ||
-            <a href="https://www.instagram.com/kevinolsonmusic/" target="_blank">Instagram</a>
+            <p class="lead">
+              <!-- <a href="http://www.facebook.com/kevinolsonmusic" target="_blank">Facebook</a>  -->
+              <a target="_blank" href="https://www.facebook.com/kevinolsonmusic/"><i class="fa fa-lg fa-facebook"></i></a>
+              &nbsp
+              <a target="_blank" href="https://www.youtube.com/channel/UCfxgUZ7sbMsZitGmuuGyA1w"><i class="fa fa-lg fa-youtube"></i></a>
+              &nbsp
+              <a target="_blank" href="https://www.instagram.com/kevinolsonmusic/"><i class="fa fa-lg fa-instagram"></i></a>
              </p>
 
           </div>      
@@ -84,7 +88,7 @@
 
         <br />
         <br />
-        <h2 style="text-align: center;">Summer Shows</h2>
+        <h2 style="text-align: center;">Schedule</h2>
 
           <nav class="upcoming">
             <a href="https://www.facebook.com/events/1291725367615876/" target="_blank"><h3 class="eventLink">April 9: Velvet Lounge DC</h3></a>
@@ -95,11 +99,8 @@
             <a href="http://arlingtoncountyfair.us/" target="_blank"><h3 class="eventLink">August 20: Arlington County Fair</h3></a>
             <a href="http://www.westovermarketbeergarden.com/live-music.html" target="_blank"><h3 class="eventLink">September 1: Westover Beer Garden</h3></a>
             <a href="https://www.facebook.com/events/1386002734824630/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A465804080253415%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A465804080253415%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D" target="_blank"><h3 class="eventLink">October 13: Rhodeside Grill</h3></a>
-
-
-           
-           
-
+             <a href="http://www.virginiasports.com/sports/w-volley/sched/va-w-volley-sched.html" target="_blank"><h3 class="eventLink">October 22: UVA Volleyball</h3></a>
+             <a href="http://www.hokiesports.com/mbasketball/schedule/" target="_blank"><h3 class="eventLink">December 10: Virginia Tech Basketball</h3></a>
           </nav>
           <p style="text-align: center;">More events being planned!</p>
         <br />
@@ -126,7 +127,7 @@
             <h2 class="panel-title">Blacksburg Busking</h2>
           </div>
           <div class="panel-body soundcloud">
-      <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2410687255/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=441665611/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/acoustic-sounds">Acoustic Sounds by Kevin Olson</a></iframe>
+     <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2249079035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2852604190/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/streetside-serenade">Streetside Serenade by Kevin Olson</a></iframe>
           </div>
          </div>
       </div>
@@ -135,10 +136,10 @@
         <div class="col-md-6">
         <div class="panel panel-default">
         <div class="panel-heading">
-            <h2 class="panel-title">Meteor Shower</h2>
+            <h2 class="panel-title">Spring</h2>
           </div>
           <div class="panel-body soundcloud">
-              <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2410687255/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1000830971/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/acoustic-sounds">Acoustic Sounds by Kevin Olson</a></iframe>
+             <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2249079035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3011254601/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/streetside-serenade">Streetside Serenade by Kevin Olson</a></iframe>
           </div>
          </div>
       </div>
@@ -149,7 +150,7 @@
             <h2 class="panel-title">Consellation</h2>
           </div>
           <div class="panel-body soundcloud">
-         <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2410687255/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2897942800/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/acoustic-sounds">Acoustic Sounds by Kevin Olson</a></iframe>
+         <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2249079035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1087861450/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/streetside-serenade">Streetside Serenade by Kevin Olson</a></iframe>
 
           </div>
          </div>
@@ -158,13 +159,16 @@
       <div class="col-md-6">
         <div class="panel panel-default">
         <div class="panel-heading">
-            <h2 class="panel-title">Launch</h2>
+            <h2 class="panel-title">Meteor Shower</h2>
           </div>
           <div class="panel-body soundcloud">
-    <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2410687255/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1860326390/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/acoustic-sounds">Acoustic Sounds by Kevin Olson</a></iframe>
+            <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2249079035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=4266081561/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/streetside-serenade">Streetside Serenade by Kevin Olson</a></iframe>
           </div>
          </div>
       </div>
+      <h3 style="text-align: center;"><a target="_blank" href="https://kevinolson.bandcamp.com/" style="color:white;">Click Here For More</a></h3>
+      <h3 style="text-align: center;"><a target="_blank" href="http://kevinjolson.com/thesprintingturtles" style="color:white;">Check out my band's page here!</a></h3>
+
 
   </div>
 </div>
@@ -177,7 +181,6 @@
     <h2 class="text-center">Music Blog</h2> <hr />
 
    
-
 <!--  <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -417,7 +420,7 @@
           </div>
         </div>
       </div>
- -->f 
+ -->
 
       <div class="col-sm-6">
         <div class="panel panel-default">
@@ -467,7 +470,7 @@
           </div>
           <div class="panel-body lead">
             <div class="videos flex-video widescreen">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/oA1QxZKupHo" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/2kQ91HbRmlA"" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -524,19 +527,22 @@
           </div>
         </div>
       </div>
-
-
-
     </div>
   </div>
 
 </div>
-
 <!-- footer -->
 <footer>
 
-  <div class="container">
-    <p class="text-right">kevinolsonmusic@gmail.com</p>
+  <div class="container" id="contact">
+    <p class="text-right">kevinolsonmusic@gmail.com
+      &nbsp
+      <a target="_blank" href="https://www.facebook.com/kevinolsonmusic/"><i class="fa fa-lg fa-facebook"></i></a>
+      &nbsp
+      <a target="_blank" href="https://www.youtube.com/channel/UCfxgUZ7sbMsZitGmuuGyA1w"><i class="fa fa-lg fa-youtube"></i></a>
+      &nbsp
+      <a target="_blank" href="https://www.instagram.com/kevinolsonmusic/"><i class="fa fa-lg fa-instagram"></i></a>
+    </p>
   </div>
 </footer><!-- /footer -->
   
