@@ -76,7 +76,7 @@
             ||
             <a href="https://www.youtube.com/user/golf4life120" target="_blank">YouTube</a>
             ||
-            <a href="https://www.instagram.com/kjo133/" target="_blank">Instagram</a>
+            <a href="https://www.instagram.com/kevinolsonmusic/" target="_blank">Instagram</a>
              </p>
 
           </div>      
@@ -84,23 +84,29 @@
 
         <br />
         <br />
-        <h2 style="text-align: center;">Upcoming Shows</h2>
+        <h2 style="text-align: center;">Summer Shows</h2>
 
           <nav class="upcoming">
-            <a href="http://www.gypsysallys.com/calendar/" target="_blank"><h3 class="eventLink">October 14: Gypsy Sallys</h3></a>
-            <a href="http://www.virginiasports.com/sports/w-volley/sched/va-w-volley-sched.html" target="_blank"><h3 class="eventLink">November 6: UVA - Memorial Gym</h3></a> 
-            <a href="http://www.hokiesports.com/mbasketball/schedule/" target="_blank"><h3 class="eventLink">November 19: Virginia Tech Men's Basketball</h3></a>
-            <a href="http://www.epicurecafe.org/" target="_blank"><h3 class="eventLink">December 17: Epicure Cafe</h3></a>
-            <a href="http://www.hokiesports.com/wbasketball/schedule/" target="_blank"><h3 class="eventLink">December 30: Virginia Tech Women's Basketball</h3></a> 
-            <a href="http://www.wvusports.com/schedules.cfm?sport=mbball" target="_blank"><h3 class="eventLink">February 11: West Virginia Men's Basketball</h3></a>  
-            <a href="http://www.wvusports.com/schedules.cfm?sport=wbball" target="_blank"><h3 class="eventLink">February 11: West Virginia Women's Basketball</h3></a> 
+            <a href="https://www.facebook.com/events/1291725367615876/" target="_blank"><h3 class="eventLink">April 9: Velvet Lounge DC</h3></a>
+            <a href="https://www.facebook.com/events/195131070974630/" target="_blank"><h3 class="eventLink">April 15: Jirani Coffee House</h3></a> 
+            <a href="https://www.paradisespringswinery.com/Events" target="_blank"><h3 class="eventLink">April 23: Paradise Springs Winery</h3></a>
+            <a href="http://celebratefairfax.com/stages/craft-beer-garden-silent-disco/" target="_blank"><h3 class="eventLink">June 10: Celebrate Fairfax - The Garden Stage</h3></a>
+            <a href="http://workhousebrewfest.org/bands/" target="_blank"><h3 class="eventLink">August 12: Workhouse Brewfest</h3></a>
+            <a href="http://arlingtoncountyfair.us/" target="_blank"><h3 class="eventLink">August 20: Arlington County Fair</h3></a>
+            <a href="http://www.westovermarketbeergarden.com/live-music.html" target="_blank"><h3 class="eventLink">September 1: Westover Beer Garden</h3></a>
+            <a href="https://www.facebook.com/events/1386002734824630/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A465804080253415%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A465804080253415%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D" target="_blank"><h3 class="eventLink">October 13: Rhodeside Grill</h3></a>
+
+
+           
            
 
           </nav>
           <p style="text-align: center;">More events being planned!</p>
         <br />
         <br />
-        <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/ZXjWtk-RoYE?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+        <div class="flex-video widescreen">
+           <iframe src="https://www.youtube.com/embed/HVIAeI4O8jw?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
         
       </div>
     </div>
@@ -314,11 +320,60 @@
                 <p>I got to play a really cool gig at the University of Virginia' Women's Volleyball game.  I played the national anthem and got to headline the 'halftime' show.  Really fun time exploring around Charlottesville, VA for the first time</p>
               </div>
             </div>
+          <div class="item">
              <div class="description">
                 <h3>November 2016</h3>
-                <p>Inivted to headline another Virginia Tech Men's Basketball game.  Always a very fun time to come back to Blacksburg and perform.  Playing at Cassell is one of the coolest events I have ever and probably will ever play at.</p>
+                <p>Invited to headline another Virginia Tech Men's Basketball game.  Always a very fun time to come back to Blacksburg and perform.  Playing at Cassell is one of the coolest events I have ever and probably will ever play at.</p>
             </div>
-
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>December 2016</h3>
+                <p>Opened up for local artist, Jessica Yellowitz.  Had a slight malfunction with my main guitar so had to improvise 2/3 of my set.  Was a great learning experience though to think on the spot. </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>December 2016</h3>
+                <p>Third time opening up for Deanna Bogart and her band.  Sixth time at Jammin' Java.  Love being able to play music in my hometown.  Awesome night and great crowd!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>December 2016</h3>
+                <p>Played at my third women's basketball game at Virginia Tech.  As always, great time playing in Cassell.  Awesome to see that the team was able to stay undefeated! </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>February 2017</h3>
+                <p>Headlined halftime shows for both the Men's and Women's West Virginia University basketball games.  First time to Morgantown.  Played infront of a sell out crowd of 14,000 people. </p>
+            </div>
+          </div>
+           <div class="item">
+            <div class="description">
+                <h3>April 2017</h3>
+                <p>Opened up for Rock Creek Kings and Darlingtonia at The Velvet Lounge in Washington DC.  Really cool venue on U Street! </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>April 2017</h3>
+                <p>Jirani Coffee House.  Opened for The Watch.  Awesome band who I met at Viva Vienna in 2016.  Second time opening for them at the coffee house.  Cool place in old town Manassas, VA! </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>April 2017</h3>
+                <p>Played a long set at Paradise Springs Winery.  </p>
+            </div>
+          </div>
+           <div class="item">
+            <div class="description">
+                <h3>June 2017</h3>
+                <p>Third straight year playing at Celebrate Fairfax!  Really cool fair with awesome local and national music acts.  </p>
+            </div>
+          </div>
 
 
         </div>
@@ -350,7 +405,7 @@
    <h2 class="text-center" id="videoTitle">Live Performances</h2> <hr />
     <div class="row">
 
-      <div class="col-sm-6">
+<!--       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h2 class="panel-title">Debut Virginia Tech 2014</h2>
@@ -358,6 +413,20 @@
           <div class="panel-body lead">
             <div class="videos flex-video widescreen">
               <iframe src="https://www.youtube.com/embed/qAqlLcVBloo?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+ -->f 
+
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">West Virginia 2017</h2>
+          </div>
+          <div class="panel-body lead">
+            <div class="videos flex-video widescreen">
+              <iframe src="https://www.youtube.com/embed/EqyC_2-GrtE?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -394,11 +463,11 @@
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h2 class="panel-title">Blacksburg Busking</h2>
+            <h2 class="panel-title">Constellation</h2>
           </div>
           <div class="panel-body lead">
             <div class="videos flex-video widescreen">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/tfA3nAZsyl4" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/oA1QxZKupHo" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -442,11 +511,6 @@
           </div>
         </div>
       </div>
-
-
-
-
-
 
        <div class="col-sm-6">
         <div class="panel panel-default">
