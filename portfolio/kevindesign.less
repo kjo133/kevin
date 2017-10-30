@@ -11,6 +11,8 @@
   font-weight: normal;
   src: local('menlotus'), url('menlotus.ttf') format('ttf');
 }
+
+
 html,
 body {
   height: 100%;
@@ -41,90 +43,121 @@ a:hover {
   margin: 0;
   padding: 0;
 }
-.home {
-  /*padding-top: 50px; 
+
+.home{
+    /*padding-top: 50px; 
      If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! 
     padding-bottom: 50px;
     */
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  color: #f8f8f8;
-  /*background: url(images/designhome2.png) no-repeat center center;*/
-  background: url(images/dark_wood.png) repeat center center;
-  background-color: black;
-  background-size: cover;
+    height: 100%; width: 100%;
+    text-align: center;
+    color: #f8f8f8;
+    /*background: url(images/designhome2.png) no-repeat center center;*/
+    background: url(images/dark_wood.png) repeat center center;
+    background-color: black;
+    background-size: cover;
 }
-#title {
+#title{
   color: #305ba0;
   padding-top: 0;
 }
-.welcome {
-  height: 250px;
-  width: 100%;
+
+.welcome{
+  height: 250px; width: 100%;
   /*line-height: 500px;*/
   position: absolute;
   /*bottom: 0;*/
   margin-top: 150px;
   text-align: center;
+  span{
+     font-family: 'Open Sans Condensed';
+
+    bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    /*font-size: 300px;*/
+    font-size: 30vmin;
+  }
+  p{
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+
+  }
 }
-.welcome span {
-  font-family: 'Open Sans Condensed';
-  bottom: 0;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-  /*font-size: 300px;*/
-  font-size: 30vmin;
-}
-.welcome p {
-  font-family: 'Open Sans Condensed';
-  font-size: 20px;
-}
-.webtitle {
+
+.webtitle{
   height: 300px;
   margin: 0 auto;
   margin-top: 100px;
+  span{
+   
+    vertical-align: middle;
+
+    font-size: 90px;
+    bottom: 0;
+
+  }
 }
-.webtitle span {
-  vertical-align: middle;
-  font-size: 90px;
-  bottom: 0;
-}
-.work {
+
+
+
+
+
+.work{
   background-color: #305ba0;
   color: white;
 }
+
+
 #musicsite {
   height: 650px;
   font-family: 'Trajan Pro Bold';
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/debut.JPG) no-repeat center center;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/debut.JPG) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
 }
+
 #elc {
   height: 600px;
   font-family: 'Candara';
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/elc.jpg) no-repeat center center;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/elc.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
 }
+
 #maaddix {
   height: 600px;
   font-family: 'Trajan Pro Bold';
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/sunset.jpeg) no-repeat center center;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/sunset.jpeg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
 }
+
+
+
+
 #music {
   font-family: 'Trajan Pro Bold';
   color: white;
@@ -138,6 +171,11 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
 }
+
+
+
+
+
 footer {
   background: black;
   font-family: 'Trajan Pro Bold';
