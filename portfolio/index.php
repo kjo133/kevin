@@ -23,6 +23,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='//fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
 
 <body>
@@ -43,6 +44,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#musicsite">Music</a></li>
                     <li><a href="#elc">Preschool</a></li>
+                    <li><a href="#turtle">Band</a></li>
                     <li><a href="#maaddix">Maaddix</a></li>
                 </ul>
             </div>
@@ -59,7 +61,7 @@
 <!--                     <h2>Kevin Olson</h2> -->
 <!--             <h3 id="title">Designer, Developer, Musician</h1>
             <a href="#about" class="page-scroll btn btn-default btn-xl sr-button">About Me!</a> -->
-            <span>Welcome</span>
+            <span>Hello World</span>
             <p>My name is Kevin.  I am a front end developer.  This is my portfolio.
             <br />
             I also play music... check that out 
@@ -81,7 +83,7 @@
     <!-- /.home -->
 
 
- <div id="musicsite" class="pad-section" data-speed="4" data-type="background">
+ <div id="musicsite" class="pad-section" data-speed="4">
       <div class="container text-center">
         <div class="row">
             <div class="webtitle">
@@ -110,14 +112,30 @@
       </div>
 </div>
 
+ <div id="turtle" class="pad-section" data-speed="4" data-type="background">
+      <div class="container text-center">
+        <div class="row">
+            <div class="webtitle">
+                <!-- <h1>Kevin Olson Music</h1> -->
+                <span>The Sprinting Turtles</span>
+                <p>Quick website I put together for my band. </p>
+                <a href="http://kevinjolson.com/thesprintingturtles" target="_blank" class="btn btn-primary">Visit Site!</a>
+            </div>
+            
+        </div>  
+      </div>
+</div>
+
+
+
 <div id="maaddix" class="pad-section" data-speed="4" data-type="background">
       <div class="container text-center">
         <div class="row">
             <div class="webtitle">
                 <!-- <h1>Kevin Olson Music</h1> -->
                 <span>Maaddix</span>
-                <p>Maaddix is a site for Mountain Air Addicts.  Currently in development, but there will be a picture gallery and a shop </p>
-                <!-- <a href="http://elcvienna.org/preschool/" class="btn btn-primary">Visit Site!</a> -->
+                <p>Maaddix is a site for Mountain Air Addicts.  Developed the site for a friend of mine.  It is a place where travelers can view and share photos with one another.</p>
+                <a href="http://maaddix.com/dev" class="btn btn-primary">Visit Site!</a>
             </div>
             
         </div>  
