@@ -14,6 +14,8 @@
     <!--my stylesheet -->
     <link rel="stylesheet" href="kevstyles.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    
+    <link rel="shortcut icon" href="">
   </head>
   <body>
 
@@ -36,12 +38,12 @@
 
     <div class="collapse navbar-collapse" id="navbar-collapse-main"style=>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" >Home</a></li>
-        <li><a href="#about" >About</a></li>
-        <li><a href="#music">Music</a></li>
-        <li><a href="#journey">Blog</a></li>
-        <li><a href="#videos">Videos</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="effect slide-up" href="#home" >Home</a></li>
+        <li><a class="effect slide-up" href="#about" >About</a></li>
+        <li><a class="effect slide-up" href="#music">Music</a></li>
+        <li><a class="effect slide-up" href="#journey">Blog</a></li>
+        <li><a class="effect slide-up" href="#videos">Videos</a></li>
+        <li><a class="effect slide-up" href="#contact">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -76,11 +78,17 @@
 
             <p class="lead">
               <!-- <a href="http://www.facebook.com/kevinolsonmusic" target="_blank">Facebook</a>  -->
+              <a target="_blank" href="https://open.spotify.com/album/0MNVb4kuEjiP9RIYAF2Aht"><i class="fa fa-lg fa-spotify"></i></a>
+              &nbsp
+              <a target="_blank" href="https://itunes.apple.com/us/album/streetside-serenade/1322198554"><i class="fa fa-lg fa-apple"></i></a>
+              &nbsp
               <a target="_blank" href="https://www.facebook.com/kevinolsonmusic/"><i class="fa fa-lg fa-facebook"></i></a>
               &nbsp
               <a target="_blank" href="https://www.youtube.com/channel/UCfxgUZ7sbMsZitGmuuGyA1w"><i class="fa fa-lg fa-youtube"></i></a>
               &nbsp
               <a target="_blank" href="https://www.instagram.com/kevinolsonmusic/"><i class="fa fa-lg fa-instagram"></i></a>
+              &nbsp
+              <a target="_top" href="mailto:kevinolsonmusic@gmail.com?Subject=Hello%20Kevin"><i class="fa fa-lg fa-envelope"></i></a>
              </p>
 
           </div>      
@@ -91,22 +99,18 @@
         <h2 style="text-align: center;">Schedule</h2>
 
           <nav class="upcoming">
-            <a href="https://www.facebook.com/events/1291725367615876/" target="_blank"><h3 class="eventLink">April 9: Velvet Lounge DC</h3></a>
-            <a href="https://www.facebook.com/events/195131070974630/" target="_blank"><h3 class="eventLink">April 15: Jirani Coffee House</h3></a> 
-            <a href="https://www.paradisespringswinery.com/Events" target="_blank"><h3 class="eventLink">April 23: Paradise Springs Winery</h3></a>
-            <a href="http://celebratefairfax.com/stages/craft-beer-garden-silent-disco/" target="_blank"><h3 class="eventLink">June 10: Celebrate Fairfax - The Garden Stage</h3></a>
-            <a href="http://workhousebrewfest.org/bands/" target="_blank"><h3 class="eventLink">August 12: Workhouse Brewfest</h3></a>
-            <a href="http://arlingtoncountyfair.us/" target="_blank"><h3 class="eventLink">August 20: Arlington County Fair</h3></a>
-            <a href="http://www.westovermarketbeergarden.com/live-music.html" target="_blank"><h3 class="eventLink">September 1: Westover Beer Garden</h3></a>
-            <a href="https://www.facebook.com/events/1386002734824630/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A465804080253415%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A465804080253415%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D" target="_blank"><h3 class="eventLink">October 13: Rhodeside Grill</h3></a>
              <a href="http://www.virginiasports.com/sports/w-volley/sched/va-w-volley-sched.html" target="_blank"><h3 class="eventLink">October 22: UVA Volleyball</h3></a>
              <a href="http://www.hokiesports.com/mbasketball/schedule/" target="_blank"><h3 class="eventLink">December 10: Virginia Tech Basketball</h3></a>
+             <a href="https://www.gypsysallys.com/vinyl-lounge-listing/" target="_blank"><h3 class="eventLink">January 5: Gypsy Sallys</h3></a>
+             <a href="http://wvusports.com/schedule.aspx?path=mbball" target="_blank"><h3 class="eventLink">January 20: West Virginia Basketball</h3></a>
+              <a href="http://www.theauldshebeenva.com/new/pages.php?pagesid=1" target="_blank"><h3 class="eventLink">February 9: Auld Shebeen</h3></a>
+             <a href="#" target="_blank"><h3 class="eventLink">February 25: Jammin' Java (The Sprinting Turtles)</h3></a>
           </nav>
           <p style="text-align: center;">More events being planned!</p>
         <br />
         <br />
         <div class="flex-video widescreen">
-           <iframe src="https://www.youtube.com/embed/HVIAeI4O8jw?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+           <iframe src="https://www.youtube.com/embed/zIW5qUc9dSU?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
         
       </div>
@@ -116,7 +120,7 @@
 
   <!-- third section - Music -->
 <div id="music" class="pad-section">
-    <h2 class="text-center">My Music</h2> <hr />
+    <h2 class="text-center">NEW Music - Snowfall Serenade</h2> <hr />
 
 
   <div class="container">
@@ -124,22 +128,33 @@
       <div class="col-md-6">
         <div class="panel panel-default">
          <div class="panel-heading">
-            <h2 class="panel-title">Blacksburg Busking</h2>
+            <h2 class="panel-title">Snowstorm</h2>
           </div>
           <div class="panel-body soundcloud">
-     <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2249079035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2852604190/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/streetside-serenade">Streetside Serenade by Kevin Olson</a></iframe>
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1166108664/size=small/bgcol=ffffff/linkcol=0687f5/track=542682637/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/snowfall-serenade-2">Snowfall Serenade by Kevin Olson</a></iframe>
           </div>
          </div>
       </div>
 
 
         <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">Hark The Herald Angels Sing</h2>
+            </div>
+            <div class="panel-body soundcloud">
+              <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1166108664/size=small/bgcol=ffffff/linkcol=0687f5/track=1491804021/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/snowfall-serenade-2">Snowfall Serenade by Kevin Olson</a></iframe>
+            </div>
+         </div>
+      </div>
+
+      <div class="col-md-6">
         <div class="panel panel-default">
         <div class="panel-heading">
-            <h2 class="panel-title">Spring</h2>
+            <h2 class="panel-title">Away In A Manger</h2>
           </div>
           <div class="panel-body soundcloud">
-             <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2249079035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3011254601/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/streetside-serenade">Streetside Serenade by Kevin Olson</a></iframe>
+           <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1166108664/size=small/bgcol=ffffff/linkcol=0687f5/track=1690343984/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/snowfall-serenade-2">Snowfall Serenade by Kevin Olson</a></iframe>
           </div>
          </div>
       </div>
@@ -147,11 +162,10 @@
       <div class="col-md-6">
         <div class="panel panel-default">
         <div class="panel-heading">
-            <h2 class="panel-title">Consellation</h2>
+            <h2 class="panel-title">Meteor Shower Pt.2</h2>
           </div>
           <div class="panel-body soundcloud">
-         <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2249079035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1087861450/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/streetside-serenade">Streetside Serenade by Kevin Olson</a></iframe>
-
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1166108664/size=small/bgcol=ffffff/linkcol=0687f5/track=4264094795/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/snowfall-serenade-2">Snowfall Serenade by Kevin Olson</a></iframe>
           </div>
          </div>
       </div>
@@ -159,14 +173,50 @@
       <div class="col-md-6">
         <div class="panel panel-default">
         <div class="panel-heading">
-            <h2 class="panel-title">Meteor Shower</h2>
+            <h2 class="panel-title">O Come All Ye Faithful</h2>
           </div>
           <div class="panel-body soundcloud">
-            <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2249079035/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=4266081561/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/streetside-serenade">Streetside Serenade by Kevin Olson</a></iframe>
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1166108664/size=small/bgcol=ffffff/linkcol=0687f5/track=2555560974/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/snowfall-serenade-2">Snowfall Serenade by Kevin Olson</a></iframe>
           </div>
          </div>
       </div>
-      <h3 style="text-align: center;"><a target="_blank" href="https://kevinolson.bandcamp.com/" style="color:white;">Click Here For More</a></h3>
+
+      <div class="col-md-6">
+        <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">Dueling Guitars</h2>
+          </div>
+          <div class="panel-body soundcloud">
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1166108664/size=small/bgcol=ffffff/linkcol=0687f5/track=429213729/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/snowfall-serenade-2">Snowfall Serenade by Kevin Olson</a></iframe>
+          </div>
+         </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">Jingle Bells</h2>
+          </div>
+          <div class="panel-body soundcloud">
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1166108664/size=small/bgcol=ffffff/linkcol=0687f5/track=3124753054/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/snowfall-serenade-2">Snowfall Serenade by Kevin Olson</a></iframe>
+          </div>
+         </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title">Auld Lang Sang</h2>
+          </div>
+          <div class="panel-body soundcloud">
+            <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1166108664/size=small/bgcol=ffffff/linkcol=0687f5/track=3118098390/transparent=true/" seamless><a href="http://kevinolson.bandcamp.com/album/snowfall-serenade-2">Snowfall Serenade by Kevin Olson</a></iframe>
+          </div>
+         </div>
+      </div>
+
+
+      <!-- <h3 style="text-align: center;"><a target="_blank" href="https://kevinolson.bandcamp.com/" style="color:white;">Click Here For More</a></h3> -->
+      <h3 style="text-align: center;"><a target="_blank" href="https://open.spotify.com/album/0MNVb4kuEjiP9RIYAF2Aht" style="color:white;">Click Here For More</a></h3>
       <h3 style="text-align: center;"><a target="_blank" href="http://kevinjolson.com/thesprintingturtles" style="color:white;">Check out my band's page here!</a></h3>
 
 
@@ -178,7 +228,7 @@
   <!-- third section - BLOG -->
 <div id="journey" class="pad-section">
   <div class="container">
-    <h2 class="text-center">Music Blog</h2> <hr />
+    <h2 class="text-center">Past Events</h2> <hr />
 
    
 <!--  <!-- Carousel
@@ -377,6 +427,30 @@
                 <p>Third straight year playing at Celebrate Fairfax!  Really cool fair with awesome local and national music acts.  </p>
             </div>
           </div>
+          <div class="item">
+            <div class="description">
+                <h3>August 2017</h3>
+                <p>Played at the second annual Workhouse Brewfest in Lorton, VA.  Glad to have beer to cool off after performing outdoors on a hot summers day!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>September 2017</h3>
+                <p>Set up a really cool gig at the Westover Beer Garden in Arlington VA.  I started off the evening with my acoustic set and then my band, <a href="http://www.kevinjolson.com/thesprintingturtles">The Sprinting Turtles</a> rocked out for the rest of the night playing hits from the 80s, 90s, and 2000s!  Check us out!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>October 2017</h3>
+                <p>A friend of mine asked if I would open up for his band at Rhodeside Grill in Arlington VA.  This was my first time there.  Great bar with live music on the bottom floor.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>October 2017</h3>
+                <p>For the second year in a row, I was asked to perform at the UVA Women's Volleyball game.  Performed the national anthem and my acoustic guitar routine.  Another great time in Charlottesville!</p>
+            </div>
+          </div>
 
 
         </div>
@@ -535,13 +609,19 @@
 <footer>
 
   <div class="container" id="contact">
-    <p class="text-right">kevinolsonmusic@gmail.com
+    <p class="text-right">
+      &nbsp
+      <a target="_blank" href="https://open.spotify.com/album/0MNVb4kuEjiP9RIYAF2Aht"><i class="fa fa-lg fa-spotify"></i></a>
       &nbsp
       <a target="_blank" href="https://www.facebook.com/kevinolsonmusic/"><i class="fa fa-lg fa-facebook"></i></a>
       &nbsp
       <a target="_blank" href="https://www.youtube.com/channel/UCfxgUZ7sbMsZitGmuuGyA1w"><i class="fa fa-lg fa-youtube"></i></a>
       &nbsp
       <a target="_blank" href="https://www.instagram.com/kevinolsonmusic/"><i class="fa fa-lg fa-instagram"></i></a>
+      &nbsp
+      <a target="_top" href="mailto:kevinolsonmusic@gmail.com?Subject=Hello%20Kevin"><i class="fa fa-lg fa-envelope"></i></a>
+      &nbsp
+      kevinolsonmusic@gmail.com
     </p>
   </div>
 </footer><!-- /footer -->

@@ -38,7 +38,8 @@ a:hover {
 /* additional sections */
 #home {
   font-family: 'Trajan Pro Bold';
-  background: url(images/debutBW.JPG) no-repeat center center fixed;
+  /*background: url(images/debutBW.JPG) no-repeat center center fixed;*/
+  background: url(images/ss.jpg) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -217,7 +218,7 @@ a.first:after{
 #music {
   font-family: 'Trajan Pro Bold';
   color: white;
-  background: url(images/relay.png) no-repeat center center fixed;
+  background: url(images/relay2.png) no-repeat center center fixed;
   display: table;
   height: 800px;
   position: relative;

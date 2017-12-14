@@ -20,10 +20,11 @@
     <link rel="stylesheet" href="kevindesign.css">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='//fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
 </head>
 
 <body>
@@ -71,76 +72,74 @@
             <br />
             <br />
             <br />
-             <a href="https://www.linkedin.com/in/kevin-olson-2040a062" target="_blank" class="btn btn-primary">LinkedIn</a>
-             <a href="https://github.com/kjo133/" target="_blank" class="btn btn-primary">GitHub</a>
-             <a href="mailto:kevino93@vt.edu" target="_blank" class="btn btn-primary">Email</a>
-
-             <!-- <a href="#about" class="page-scroll btn btn-default btn-xl sr-button">Enter!</a>
-             <button href="#about" type="button" class="btn btn-primary">Enter</button> -->
+            <a target="_blank" href="https://www.linkedin.com/in/kevin-olson-2040a062"><i class="fa fa-4x fa-linkedin-square"></i></a>
+            <a target="_blank" href="https://github.com/kjo133/"><i class="fa fa-4x fa-github-alt"></i></a>
+            <a target="_blank" href="mailto:kevino93@vt.edu"><i class="fa fa-4x fa-envelope"></i></a>
+          
         </div>
         <!--end container -->
     </div>
     <!-- /.home -->
 
 
- <div id="musicsite" class="pad-section" data-speed="4">
-      <div class="container text-center">
-        <div class="row">
-            <div class="webtitle">
-                <!-- <h1>Kevin Olson Music</h1> -->
-                <span>Kevin Olson Music</span>
-                <p>Website for my music career.  I've played at a number of bars, clubs, and even basketball halftime shows!  </p>
-                <a href="http://www.kevinjolson.com" target="_blank" class="btn btn-primary">Visit Site!</a>
-            </div>
-            
-        </div>  
-      </div>
-</div>
+     <div id="musicsite" class="pad-section" data-speed="4">
+          <div class="container text-center">
+            <div class="row">
+                <div class="webtitle">
+                    <!-- <h1>Kevin Olson Music</h1> -->
+                    <span>Kevin Olson Music</span>
+                    <p>Website for my music career.  I've played at a number of bars, clubs, and even basketball halftime shows!  </p>
+                    <a href="http://www.kevinjolson.com" target="_blank" class="btn btn-primary">Visit Site!</a>
+                </div>
+                
+            </div>  
+          </div>
+    </div>
 
 
- <div id="elc" class="pad-section" data-speed="4" data-type="background">
-      <div class="container text-center">
-        <div class="row">
-            <div class="webtitle">
-                <!-- <h1>Kevin Olson Music</h1> -->
-                <span>Emmanuel Lutheran Church</span>
-                <p>My church needed a new, responsive website for their Preschool  </p>
-                <a href="http://elcvienna.org/preschool/" target="_blank" class="btn btn-primary">Visit Site!</a>
-            </div>
-            
-        </div>  
-      </div>
-</div>
+     <div id="elc" class="pad-section" data-speed="4" data-type="background">
+          <div class="container text-center">
+            <div class="row">
+                <div class="webtitle">
+                    <!-- <h1>Kevin Olson Music</h1> -->
+                    <span>Emmanuel Lutheran Church</span>
+                    <p>My church needed a new, responsive website for their Preschool  </p>
+                    <a href="http://elcvienna.org/preschool/" target="_blank" class="btn btn-primary">Visit Site!</a>
+                </div>
+                
+            </div>  
+          </div>
+    </div>
 
- <div id="turtle" class="pad-section" data-speed="4" data-type="background">
-      <div class="container text-center">
-        <div class="row">
-            <div class="webtitle">
-                <!-- <h1>Kevin Olson Music</h1> -->
-                <span>The Sprinting Turtles</span>
-                <p>Quick website I put together for my band. </p>
-                <a href="http://kevinjolson.com/thesprintingturtles" target="_blank" class="btn btn-primary">Visit Site!</a>
-            </div>
-            
-        </div>  
-      </div>
-</div>
+     <div id="turtle" class="pad-section" data-speed="4" data-type="background">
+          <div class="container text-center">
+            <div class="row">
+                <div class="webtitle">
+                    <!-- <h1>Kevin Olson Music</h1> -->
+                    <span>The Sprinting Turtles</span>
+                    <p>Quick website I put together for my band. </p>
+                    <a href="http://kevinjolson.com/thesprintingturtles" target="_blank" class="btn btn-primary">Visit Site!</a>
+                </div>
+                
+            </div>  
+          </div>
+    </div>
 
 
 
-<div id="maaddix" class="pad-section" data-speed="4" data-type="background">
-      <div class="container text-center">
-        <div class="row">
-            <div class="webtitle">
-                <!-- <h1>Kevin Olson Music</h1> -->
-                <span>Maaddix</span>
-                <p>Maaddix is a site for Mountain Air Addicts.  Developed the site for a friend of mine.  It is a place where travelers can view and share photos with one another.</p>
-                <a href="http://maaddix.com/dev" class="btn btn-primary">Visit Site!</a>
-            </div>
-            
-        </div>  
-      </div>
-</div>
+    <div id="maaddix" class="pad-section" data-speed="4" data-type="background">
+          <div class="container text-center">
+            <div class="row">
+                <div class="webtitle">
+                    <!-- <h1>Kevin Olson Music</h1> -->
+                    <span>Maaddix</span>
+                    <p>Maaddix is a site for Mountain Air Addicts.  Developed the site for a friend of mine.  It is a place where travelers can view and share photos with one another.</p>
+                    <a href="http://maaddix.com/dev" class="btn btn-primary">Visit Site!</a>
+                </div>
+                
+            </div>  
+          </div>
+    </div>
 
 
 

@@ -81,6 +81,12 @@ a:hover {
   font-family: 'Open Sans Condensed';
   font-size: 25px;
 }
+.welcome a {
+  color: white;
+}
+.welcome a :hover {
+  color: #c4c4c4;
+}
 .webtitle {
   height: 300px;
   margin: 0 auto;
