@@ -102,9 +102,12 @@
              <a href="http://www.virginiasports.com/sports/w-volley/sched/va-w-volley-sched.html" target="_blank"><h3 class="eventLink">October 22: UVA Volleyball</h3></a>
              <a href="http://www.hokiesports.com/mbasketball/schedule/" target="_blank"><h3 class="eventLink">December 10: Virginia Tech Basketball</h3></a>
              <a href="https://www.gypsysallys.com/vinyl-lounge-listing/" target="_blank"><h3 class="eventLink">January 5: Gypsy Sallys</h3></a>
+              <a href="https://www.facebook.com/events/210972869448177/" target="_blank"><h3 class="eventLink">January 27: Tysons Biergarten</h3></a>
              <a href="http://wvusports.com/schedule.aspx?path=mbball" target="_blank"><h3 class="eventLink">January 20: West Virginia Basketball</h3></a>
               <a href="http://www.theauldshebeenva.com/new/pages.php?pagesid=1" target="_blank"><h3 class="eventLink">February 9: Auld Shebeen</h3></a>
              <a href="#" target="_blank"><h3 class="eventLink">February 25: Jammin' Java (The Sprinting Turtles)</h3></a>
+             <a href="#"><h3 class="eventLink">May 27: Private Event</h3></a>
+             <a href="#"><h3 class="eventLink">September 2: Private Event</h3></a>
           </nav>
           <p style="text-align: center;">More events being planned!</p>
         <br />
