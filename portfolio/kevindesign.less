@@ -17,6 +17,10 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+
 
 }
 /*li {
@@ -64,22 +68,9 @@ a:hover {
 }
 
 .welcome{
-  height: 250px; width: 100%;
-  /*line-height: 500px;*/
+  height: 350px; width: 100%;
   position: absolute;
-  /*bottom: 0;*/
   margin-top: 150px;
-  text-align: center;
-  span{
-     font-family: 'Open Sans Condensed';
-
-    bottom: 0;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-    /*font-size: 300px;*/
-    font-size: 17vmin;
-  }
   p{
     font-family: 'Open Sans Condensed';
     font-size: 25px;
@@ -93,8 +84,87 @@ a:hover {
   }
 }
 
+/*ROTATING WORDS*/
+.rw-wrapper{
 
+  width: 55%;
+  position: relative;
+  padding-top: 200px;
+  margin-left: 27%;
+  bottom: 0;
 
+  
+}
+.rw-sentence{
+  margin:0;
+  text-align: left;
+  span{
+    color: white;
+    
+    font-size: 9vmin;
+    font-weight: normal;
+    font-family: 'Open Sans Condensed';
+  }
+}
+
+.rw-words{
+  display: inline;
+
+  text-indent: 10px;
+}
+.rw-words span{
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  color: #6b739d;
+}
+.rw-words-1 span{
+  -webkit-animation: rotateWords 12s linear infinite 0s;
+  -ms-animation: rotateWords 12s linear infinite 0s;
+  animation: rotateWords 12s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+  -webkit-animation-delay: 4s; 
+  -ms-animation-delay: 4s; 
+  animation-delay: 4s;
+  color: #6b889d;
+}
+.rw-words span:nth-child(3) { 
+  -webkit-animation-delay: 8s; 
+  -ms-animation-delay: 8s; 
+  animation-delay: 8s; 
+  color: #6b739d; 
+}
+
+@-webkit-keyframes rotateWords {
+    0% { opacity: 1; -webkit-animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+    25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWords {
+    0% { opacity: 1; -ms-animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+    25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWords {
+    0% { opacity: 1; -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+    25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+@keyframes rotateWords {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 95px; }
+    19% { opacity: 1; height: 95px; }
+    25% { opacity: 0; height: 95px; }
+    100% { opacity: 0; }
+}
 
 .webtitle{
   height: 300px;

@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#home">Kevin Olson</a>
+                <!-- <a class="navbar-brand topnav" href="#home">Kevin Olson</a> -->
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -59,22 +59,25 @@
     <div class="home">
 <!-- <div class="intro-message"> -->
         <div class="welcome">
-<!--                     <h2>Kevin Olson</h2> -->
-<!--             <h3 id="title">Designer, Developer, Musician</h1>
-            <a href="#about" class="page-scroll btn btn-default btn-xl sr-button">About Me!</a> -->
-            <span>Hello World</span>
-            <p>My name is Kevin.  I am a front end developer.  This is my portfolio.
-            <br />
-            I also play music... check that out 
-            <a href="http://www.kevinjolson.com" target="_blank">here</a>.
-            </p>
-            <a href="#musicsite" class="btn btn-primary">Enter!</a>
-            <br />
-            <br />
-            <br />
-            <a target="_blank" href="https://www.linkedin.com/in/kevin-olson-2040a062"><i class="fa fa-4x fa-linkedin-square"></i></a>
-            <a target="_blank" href="https://github.com/kjo133/"><i class="fa fa-4x fa-github-alt"></i></a>
-            <a target="_blank" href="mailto:kevino93@vt.edu"><i class="fa fa-4x fa-envelope"></i></a>
+            <section class="rw-wrapper">
+                <h2 class="rw-sentence">
+                    <span>Hello!
+                        <a target="_blank" href="https://www.linkedin.com/in/kevin-olson-2040a062"><i class="fa fa-linkedin-square"></i>
+                        </a>
+                        <a target="_blank" href="https://github.com/kjo133/"><i class="fa fa-github-alt"></i></a>
+                        <a target="_blank" href="mailto:kevino93@vt.edu"><i class="fa fa-envelope"></i></a>
+
+
+                     <br /> I am</span>
+                    <div class="rw-words rw-words-1">
+                        <span>Kevin</span>
+                        <span>a developer</span>  
+                        <span>a musician</span>
+                    </div>
+                  
+                </h2>
+            </section>
+
           
         </div>
         <!--end container -->
@@ -141,43 +144,6 @@
           </div>
     </div>
 
-
-
-
-
-
-
-
-<!--   <a id="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 style="text-align: center; color: #305ba0;">Connect with Me!</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline" style="margin: 0 auto; width: 370px;">
-                        <li>
-                            <a href="mailto:kevino93@vt.edu" target="_blank" class="btn btn-default btn-lg"><span class="network-name">Email</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/kjo133/" target="_blank" class="btn btn-default btn-lg"><span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/kevin-olson-2040a062
-" class="btn btn-default btn-lg" target="_blank"><span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div> -->
-
-<!-- 
-    </div> -->
-    <!-- /.banner -->
 
     <!-- Footer -->
     <footer>
