@@ -14,6 +14,7 @@
     <!--my stylesheet -->
     <link rel="stylesheet" href="kevstyles.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/header2.css">
     
     <link rel="shortcut icon" href="">
   </head>
@@ -22,32 +23,19 @@
 
 <!--     MY NAV BAR -->
 
-  <!-- navigation panel -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#" style="font-family: 'Trajan Pro Bold';">Kevin Olson</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbar-collapse-main"style=>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="effect slide-up" href="#home" >Home</a></li>
-        <li><a class="effect slide-up" href="#about" >About</a></li>
-        <li><a class="effect slide-up" href="#music">Music</a></li>
-        <li><a class="effect slide-up" href="#journey">Blog</a></li>
-        <li><a class="effect slide-up" href="#videos">Videos</a></li>
-        <li><a class="effect slide-up" href="#contact">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    <div id="nav-w" class="navbar-fixed-top closed">
+        <nav id="kevnav">
+          <a href="#home" >Home</a>
+          <a href="#about" >About</a>
+          <a href="#music">Music</a>
+          <a href="#journey">Blog</a>
+          <a href="#videos">Videos</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div id="dropDown">
+           <img src="images/KOLogo.png">
+        </div>
+      </div>
 
 
 <!-- first section - Home -->
@@ -55,7 +43,8 @@
       <div class="text-vcenter">
         <h1 id="mainTitle">Kevin olson musiC</h1>
         
-        <a href="#about" class="btn btn-default btn-lg" onclick="testClick();">WelcomE</a>
+        <!-- <a href="#about" class="btn btn-default btn-lg" onclick="testClick();">WelcomE</a> -->
+        <a href="#about"><img src="images/KOLogo.png"></a>
 
       </div>
     </div>
@@ -99,15 +88,12 @@
         <h2 style="text-align: center;">Schedule</h2>
 
           <nav class="upcoming">
-             <a href="http://www.virginiasports.com/sports/w-volley/sched/va-w-volley-sched.html" target="_blank"><h3 class="eventLink">October 22: UVA Volleyball</h3></a>
-             <a href="http://www.hokiesports.com/mbasketball/schedule/" target="_blank"><h3 class="eventLink">December 10: Virginia Tech Basketball</h3></a>
-             <a href="https://www.gypsysallys.com/vinyl-lounge-listing/" target="_blank"><h3 class="eventLink">January 5: Gypsy Sallys</h3></a>
-              <a href="https://www.facebook.com/events/210972869448177/" target="_blank"><h3 class="eventLink">January 27: Tysons Biergarten</h3></a>
-             <a href="http://wvusports.com/schedule.aspx?path=mbball" target="_blank"><h3 class="eventLink">January 20: West Virginia Basketball</h3></a>
-              <a href="http://www.theauldshebeenva.com/new/pages.php?pagesid=1" target="_blank"><h3 class="eventLink">February 9: Auld Shebeen</h3></a>
-             <a href="#" target="_blank"><h3 class="eventLink">February 25: Jammin' Java (The Sprinting Turtles)</h3></a>
-             <a href="#"><h3 class="eventLink">May 27: Private Event</h3></a>
-             <a href="#"><h3 class="eventLink">September 2: Private Event</h3></a>
+            <a href="https://www.facebook.com/events/354103551742438/" target="_blank"><h3 class="eventLink">May 5: Tyson's Biergarten (The Sprinting Turtles)</h3></a>
+            <a href="http://thecowboycafe.com/entertainment/" target="_blank"><h3 class="eventLink">May 11: Cowboy Cafe (The Sprinting Turtles)</h3></a>
+            <a href="#"><h3 class="eventLink">May 27: Private Event</h3></a>
+            <a href="#"><h3 class="eventLink">July 13: Westover Beer Garden (The Sprinting Turtles)</h3></a>
+            <a href="#"><h3 class="eventLink">September 2: Private Event</h3></a>
+            <a href="#"><h3 class="eventLink">September 20: Westover Beer Garden (Acoustic)</h3></a>
           </nav>
           <p style="text-align: center;">More events being planned!</p>
         <br />
@@ -454,8 +440,36 @@
                 <p>For the second year in a row, I was asked to perform at the UVA Women's Volleyball game.  Performed the national anthem and my acoustic guitar routine.  Another great time in Charlottesville!</p>
             </div>
           </div>
-
-
+           <div class="item">
+            <div class="description">
+                <h3>December 2017</h3>
+                <p>Fourth year in a row headlining a Men's Basketball game at Virginia Tech.  Very special to be invited back and perform on the court where I played my very first big live gig.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>January 2018</h3>
+                <p>My band, The Sprinting Turtles, and I performed at Gypsy Sallys in Georgetown.  Second time we have been there and first time we went as a full band.  Great crowd rocking out to some classic rock covers!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>January 2018</h3>
+                <p>The Sprinting Turtles performed at Tysons Biergarten.  Had an awesome time playing rock and roll for four hours and got great feedback from the bar and from management!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>February 2018</h3>
+                <p>The Sprinting Turtles had a gig at Auld Shebeen in Fairfax VA.  Good time rocking out the Irish bar with some classic rock hits!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>February 2018</h3>
+                <p>The band performed a quick set at the Beltway Relay For Life fundraiser event held at Jammin Java!</p>
+            </div>
+          </div>
         </div>
 
 
@@ -470,7 +484,7 @@
       </a>
     </div><!-- /.carousel --> 
 
-       <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/olsRIcQELXQ?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+       <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/zlTjKrZQD5c" frameborder="0" allowfullscreen></iframe></div>
   </div>
 
 </div>
@@ -502,11 +516,11 @@
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h2 class="panel-title">West Virginia 2017</h2>
+            <h2 class="panel-title">Blacksburg Busking - Tiny Desk Submission</h2>
           </div>
           <div class="panel-body lead">
             <div class="videos flex-video widescreen">
-              <iframe src="https://www.youtube.com/embed/EqyC_2-GrtE?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/8EBV2m4ADHY?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -634,6 +648,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scroll.js" type="text/javascript"></script>
+    <script src="js/headerToggle.js"></script>
 <!--     <script src="js/parallax.js"></script> -->
   </body>
 </html>

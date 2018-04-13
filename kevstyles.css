@@ -29,6 +29,10 @@ a:hover {
   text-align: center;
   vertical-align: middle;
 }
+.text-vcenter img {
+  height: 100px;
+  width: 100px;
+}
 .text-vcenter h1 {
   font-size: 4.5em;
   font-weight: 700;

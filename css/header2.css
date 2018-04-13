@@ -1,0 +1,49 @@
+#nav-w {
+  transition: transform cubic-bezier(0.68, -0.55, 0.265, 1.55) 350ms;
+  background: black;
+  padding: 2em 1em;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+#nav-w.closable:hover {
+  transform: translateY(-0.25em);
+}
+#nav-w.closed:hover {
+  transform: translateY(-3.15em);
+}
+.closed {
+  transform: translateY(-3.75em);
+}
+#kevnav {
+  position: relative;
+  z-index: 5;
+}
+#kevnav a {
+  color: white;
+  font-family: 'Trajan Pro Bold';
+  padding-right: 20px;
+}
+#dropDown {
+  background: black;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 50%);
+  padding: 1em;
+  width: 4.5em;
+  height: 4.5em;
+  border-radius: 100%;
+  z-index: 1;
+}
+#dropDown img {
+  height: 100%;
+  width: 100%;
+}
+#navLogo {
+  width: 3em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-40%, -50%);
+}
