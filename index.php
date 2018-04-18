@@ -109,11 +109,15 @@
 
   <!-- third section - Music -->
 <div id="music" class="pad-section">
-    <h2 class="text-center">NEW Music - Snowfall Serenade</h2> <hr />
-
+    <h2 class="text-center">My Music</h2> <hr />
 
   <div class="container">
+    <h3 class="text-center">Streetside Serenade</h3>
+    <iframe src="https://open.spotify.com/embed/album/0MNVb4kuEjiP9RIYAF2Aht" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" style="opacity: 0.95;"></iframe>
 
+<!--     <iframe src="https://open.spotify.com/embed/album/0MNVb4kuEjiP9RIYAF2Aht" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
+
+    <h3 class="text-center">Snowfall Serenade</h3>
       <div class="col-md-6">
         <div class="panel panel-default">
          <div class="panel-heading">
@@ -203,7 +207,7 @@
          </div>
       </div>
 
-
+      
       <!-- <h3 style="text-align: center;"><a target="_blank" href="https://kevinolson.bandcamp.com/" style="color:white;">Click Here For More</a></h3> -->
       <h3 style="text-align: center;"><a target="_blank" href="https://open.spotify.com/album/0MNVb4kuEjiP9RIYAF2Aht" style="color:white;">Click Here For More</a></h3>
       <h3 style="text-align: center;"><a target="_blank" href="http://kevinjolson.com/thesprintingturtles" style="color:white;">Check out my band's page here!</a></h3>
