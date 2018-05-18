@@ -91,9 +91,13 @@
             <a href="https://www.facebook.com/events/354103551742438/" target="_blank"><h3 class="eventLink">May 5: Tyson's Biergarten (The Sprinting Turtles)</h3></a>
             <a href="http://thecowboycafe.com/entertainment/" target="_blank"><h3 class="eventLink">May 11: Cowboy Cafe (The Sprinting Turtles)</h3></a>
             <a href="#"><h3 class="eventLink">May 27: Private Event</h3></a>
-            <a href="#"><h3 class="eventLink">July 13: Westover Beer Garden (The Sprinting Turtles)</h3></a>
+            <a href="http://celebratefairfax.com/"><h3 class="eventLink">June 10: Celebrate Fairfax | 6:00pm </h3></a>
+            <a href="http://www.westovermarketbeergarden.com/"><h3 class="eventLink">July 13: Westover Beer Garden (The Sprinting Turtles)</h3></a>
+            <a href="https://www.facebook.com/events/211064052957707/"><h3 class="eventLink">July 28: Tysons Biergarten (The Sprinting Turtles)</h3></a>
+            <a href="http://workhousebrewfest.org/"><h3 class="eventLink">August 4: Workhouse Brewfest</h3></a>
+            <a href="http://arlingtoncountyfair.us/entertainment/outdoor-entertainment/"><h3 class="eventLink">August 18: Arlington County Fair (The Sprinting Turtles)</h3></a>
             <a href="#"><h3 class="eventLink">September 2: Private Event</h3></a>
-            <a href="#"><h3 class="eventLink">September 20: Westover Beer Garden (Acoustic)</h3></a>
+            <a href="http://www.westovermarketbeergarden.com/"><h3 class="eventLink">September 20: Westover Beer Garden (Acoustic)</h3></a>
           </nav>
           <p style="text-align: center;">More events being planned!</p>
         <br />

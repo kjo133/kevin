@@ -1,0 +1,87 @@
+.effect{
+  text-transform: uppercase;
+	-webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-perspective: 400;
+  -moz-perspective: 400;
+  -ms-perspective: 400;
+  -o-perspective: 400;
+  perspective: 400;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1em;
+  backface-visibility: hidden;
+  &:before, &:after{
+  	 filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transform-origin: center center 0 50%;
+  -moz-transform-origin: center center 0 50%;
+  -ms-transform-origin: center center 0 50%;
+  -o-transform-origin: center center 0 50%;
+  transform-origin: center center 0 50%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: absolute;
+  content: attr(data-effect);
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+  }
+  &.slide-up{
+    color:transparent;
+    &:before{
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    &:after{
+      color: red;
+      margin-top: 1em;
+    }
+    &:hover:before{
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      margin-top: -1em;
+    }
+    &:hover:after{
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
+  &.slide-down{
+    color:transparent;
+    &:before{
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+      color: rgba(0,0,0,0.5);
+    }
+    &:after{
+      color: red;
+      margin-top: 1em;
+    }
+    &:hover:before{
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      margin-top: 1em;
+    }
+    &:hover:after{
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
+}
+ 
+
