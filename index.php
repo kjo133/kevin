@@ -88,22 +88,21 @@
         <h2 style="text-align: center;">Schedule</h2>
 
           <nav class="upcoming">
-            <a href="https://www.facebook.com/events/354103551742438/" target="_blank"><h3 class="eventLink">May 5: Tyson's Biergarten (The Sprinting Turtles)</h3></a>
-            <a href="http://thecowboycafe.com/entertainment/" target="_blank"><h3 class="eventLink">May 11: Cowboy Cafe (The Sprinting Turtles)</h3></a>
-            <a href="#"><h3 class="eventLink">May 27: Private Event</h3></a>
-            <a href="http://celebratefairfax.com/"><h3 class="eventLink">June 10: Celebrate Fairfax | 6:00pm </h3></a>
-            <a href="http://www.westovermarketbeergarden.com/"><h3 class="eventLink">July 13: Westover Beer Garden (The Sprinting Turtles)</h3></a>
-            <a href="https://www.facebook.com/events/211064052957707/"><h3 class="eventLink">July 28: Tysons Biergarten (The Sprinting Turtles)</h3></a>
-            <a href="http://workhousebrewfest.org/"><h3 class="eventLink">August 4: Workhouse Brewfest</h3></a>
-            <a href="http://arlingtoncountyfair.us/entertainment/outdoor-entertainment/"><h3 class="eventLink">August 18: Arlington County Fair (The Sprinting Turtles)</h3></a>
-            <a href="#"><h3 class="eventLink">September 2: Private Event</h3></a>
-            <a href="http://www.westovermarketbeergarden.com/"><h3 class="eventLink">September 20: Westover Beer Garden (Acoustic)</h3></a>
+            <a href="https://hokiesports.com/schedule.aspx?path=mbball"><h3 class="eventLink">December 1: Virginia Tech Men's Basketball</h3></a>
+
+          
+            <a href="https://umterps.com/schedule.aspx?schedule=365"><h3 class="eventLink">January 2: Maryland Men's Basketball</h3></a>
+            <a href="#"><h3 class="eventLink">January 26: Tucked Away Brewery (The Sprinting Turtles)</h3></a>
+            <a href="#"><h3 class="eventLink">February 9: Caboose Commons</h3></a>
+            <a href="#"><h3 class="eventLink">February 22: CoWork Cafe</h3></a>
+            <a href="#"><h3 class="eventLink">March 7: Light Horse (The Sprinting Turtles)</h3></a>
           </nav>
           <p style="text-align: center;">More events being planned!</p>
         <br />
         <br />
         <div class="flex-video widescreen">
-           <iframe src="https://www.youtube.com/embed/zIW5qUc9dSU?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+           <iframe src="https://www.youtube.com/embed/SjFuOuo5PMw?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+
         </div>
         
       </div>
@@ -478,6 +477,48 @@
                 <p>The band performed a quick set at the Beltway Relay For Life fundraiser event held at Jammin Java!</p>
             </div>
           </div>
+          <div class="item">
+            <div class="description">
+                <h3>May 2018</h3>
+                <p>The Sprinting Turtles had another great gig at TYSONS BIERGARTEN!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>May 2018</h3>
+                <p>The Sprinting Turtles performed at Cowboy Cafe in Arlington VA.  Thanks to all of our friends who helped create a standing room only night!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>May 2018</h3>
+                <p>Closed out my May performances by playing an acoustic set at my friend's Rachel and Parker's wedding.  They have been supporters of my music from my Blacksburg days so was very honored to have them ask me to perform at their wedding.  Congrats to the Leinbachs!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>June 2018</h3>
+                <p>I performed at Celebrate Fairfax for the fourth year in a row.  One of my favorite local festivals to attend and play at.  Had a nice stage and crowd.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>September 2018</h3>
+                <p>Was invited to play guitar at the main housewarming event at Caboose Commons.  Very cool to be able to participate in their opening event.  Great brewery in the Mosaic District! </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>October 2018</h3>
+                <p>Played a gig for an Apple Pay event near Dupont Circle in DC</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>December 2018</h3>
+                <p>Headlined a halftime show for the Virginia Tech Men's Basketball game.  Was cool to play to a sell out crowd in Blacksburg!</p>
+            </div>
+          </div>
         </div>
 
 
@@ -504,7 +545,7 @@
 <!-- fourth section - Information -->
 <div id="videos" class="pad-section">
   <div class="container">
-   <h2 class="text-center" id="videoTitle">Live Performances</h2> <hr />
+   <h2 class="text-center" id="videoTitle">Videos</h2> <hr />
     <div class="row">
 
 <!--       <div class="col-sm-6">
@@ -524,6 +565,21 @@
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
+            <h2 class="panel-title">Virginia Tech Halftime 2017-2018</h2>
+          </div>
+          <div class="panel-body lead">
+            <div class="videos flex-video widescreen">
+              <iframe src="https://www.youtube.com/embed/zIW5qUc9dSU?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
             <h2 class="panel-title">Blacksburg Busking - Tiny Desk Submission</h2>
           </div>
           <div class="panel-body lead">
@@ -533,6 +589,8 @@
           </div>
         </div>
       </div>
+
+
 
 
        <div class="col-sm-6">
