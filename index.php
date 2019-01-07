@@ -55,7 +55,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <img src="images/relayJammin.jpeg" alt="" />
+            <img id="aboutImage" src="images/relayJammin.jpeg" alt="" />
           </div>
           <div class="col-sm-6 text-center">
             <h2>Kevin olson musiC</h2>
@@ -96,6 +96,8 @@
             <a href="#"><h3 class="eventLink">February 9: Caboose Commons</h3></a>
             <a href="#"><h3 class="eventLink">February 22: CoWork Cafe</h3></a>
             <a href="#"><h3 class="eventLink">March 7: Light Horse (The Sprinting Turtles)</h3></a>
+            <a href="#"><h3 class="eventLink">May 18: Paradise Springs Winery</h3></a>
+            <a href="#"><h3 class="eventLink">December 7: Paradise Springs Winery(The Sprinting Turtles)</h3></a>
           </nav>
           <p style="text-align: center;">More events being planned!</p>
         <br />
@@ -108,7 +110,6 @@
       </div>
     </div>
 <!-- /second section -->
-
 
   <!-- third section - Music -->
 <div id="music" class="pad-section">
@@ -715,6 +716,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scroll.js" type="text/javascript"></script>
     <script src="js/headerToggle.js"></script>
-<!--     <script src="js/parallax.js"></script> -->
+    <!-- Animate on Scroll Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+    <script src="js/aboutAnimation.js"></script>
   </body>
 </html>
