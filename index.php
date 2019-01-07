@@ -50,22 +50,17 @@
     </div>
     <!-- /first section -->
 
-    <!-- second section - Welcome -->
+
     <div id="about" class="pad-section" data-speed="4" data-type="background">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <img id="aboutImage" src="images/relayJammin.jpeg" alt="" />
-          </div>
-          <div class="col-sm-6 text-center">
-            <h2>Kevin olson musiC</h2>
-            <p class="lead">Musician from Vienna, Virginia.  <br /> 
-            I graduated from Virginia Tech, class of 2015
-            with a degree in Computer Science.</p>
-
-         <!--    <a href="http://www.facebook.com/kevinolsonmusic" target="_blank"><img src="images/facebookicon.png"></a> -->
-
-            <p class="lead">
+     <div class="container">
+       <div class="row">
+         <div class="col-sm-6">
+           <img src="images/relayJammin.jpeg" alt="" />
+         </div>
+         <div class="col-sm-6" id="aboutText">
+           <h2>Welcome!</h2>
+           <p>I'm Kevin.  Located in Washington DC.  Best known for playing guitar at basketball halftime shows.  Also playing at festivals, clubs, bars, and private events with my percussive guitar routine and with my band.  Lets connect!  </p>
+            <p class="lead text-center">
               <!-- <a href="http://www.facebook.com/kevinolsonmusic" target="_blank">Facebook</a>  -->
               <a target="_blank" href="https://open.spotify.com/album/0MNVb4kuEjiP9RIYAF2Aht"><i class="fa fa-lg fa-spotify"></i></a>
               &nbsp
@@ -79,12 +74,15 @@
               &nbsp
               <a target="_top" href="mailto:kevinolsonmusic@gmail.com?Subject=Hello%20Kevin"><i class="fa fa-lg fa-envelope"></i></a>
              </p>
+         </div>
+       </div>
+     </div> 
+    </div>
 
-          </div>      
-        </div>
 
-        <br />
-        <br />
+    <!-- second section - Welcome -->
+    <div id="about" class="pad-section" data-speed="4" data-type="background">
+      <div class="container">
         <h2 style="text-align: center;">Schedule</h2>
 
           <nav class="upcoming">
