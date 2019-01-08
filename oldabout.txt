@@ -1,0 +1,60 @@
+    <!-- second section - Welcome -->
+    <div id="about" class="pad-section" data-speed="4" data-type="background">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="images/relayJammin.jpeg" alt="" />
+          </div>
+          <div class="col-sm-6 text-center">
+            <h2>Kevin olson musiC</h2>
+            <p class="lead">Musician from Vienna, Virginia.  <br /> 
+            I graduated from Virginia Tech, class of 2015
+            with a degree in Computer Science.</p>
+
+         <!--    <a href="http://www.facebook.com/kevinolsonmusic" target="_blank"><img src="images/facebookicon.png"></a> -->
+
+            <p class="lead">
+              <!-- <a href="http://www.facebook.com/kevinolsonmusic" target="_blank">Facebook</a>  -->
+              <a target="_blank" href="https://open.spotify.com/album/0MNVb4kuEjiP9RIYAF2Aht"><i class="fa fa-lg fa-spotify"></i></a>
+              &nbsp
+              <a target="_blank" href="https://itunes.apple.com/us/album/streetside-serenade/1322198554"><i class="fa fa-lg fa-apple"></i></a>
+              &nbsp
+              <a target="_blank" href="https://www.facebook.com/kevinolsonmusic/"><i class="fa fa-lg fa-facebook"></i></a>
+              &nbsp
+              <a target="_blank" href="https://www.youtube.com/channel/UCfxgUZ7sbMsZitGmuuGyA1w"><i class="fa fa-lg fa-youtube"></i></a>
+              &nbsp
+              <a target="_blank" href="https://www.instagram.com/kevinolsonmusic/"><i class="fa fa-lg fa-instagram"></i></a>
+              &nbsp
+              <a target="_top" href="mailto:kevinolsonmusic@gmail.com?Subject=Hello%20Kevin"><i class="fa fa-lg fa-envelope"></i></a>
+             </p>
+
+          </div>      
+        </div>
+
+        <br />
+        <br />
+        <h2 style="text-align: center;">Schedule</h2>
+
+          <nav class="upcoming">
+            <a href="https://hokiesports.com/schedule.aspx?path=mbball"><h3 class="eventLink">December 1: Virginia Tech Men's Basketball</h3></a>
+
+          
+            <a href="https://umterps.com/schedule.aspx?schedule=365"><h3 class="eventLink">January 2: Maryland Men's Basketball</h3></a>
+            <a href="#"><h3 class="eventLink">January 26: Tucked Away Brewery (The Sprinting Turtles)</h3></a>
+            <a href="#"><h3 class="eventLink">February 9: Caboose Commons</h3></a>
+            <a href="#"><h3 class="eventLink">February 22: CoWork Cafe</h3></a>
+            <a href="#"><h3 class="eventLink">March 7: Light Horse (The Sprinting Turtles)</h3></a>
+            <a href="#"><h3 class="eventLink">May 18: Paradise Springs Winery</h3></a>
+            <a href="#"><h3 class="eventLink">December 7: Paradise Springs Winery(The Sprinting Turtles)</h3></a>
+          </nav>
+          <p style="text-align: center;">More events being planned!</p>
+        <br />
+        <br />
+        <div class="flex-video widescreen">
+           <iframe src="https://www.youtube.com/embed/SjFuOuo5PMw?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+        
+      </div>
+    </div>
+<!-- /second section -->

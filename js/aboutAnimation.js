@@ -1,9 +1,8 @@
 var timeline = new TimelineMax();
 const controller = new ScrollMagic.Controller();
 
-timeline.from("#aboutImage", 0.2, {opacity:0});
-timeline.from(".lead", 0.4, {opacity:0});
-
+timeline.from("#aboutContainer", 0.7, {opacity:0});
+timeline.from("#scheduleContainer", 1, {opacity:0});
 
 
 
