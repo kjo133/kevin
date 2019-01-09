@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Kevin Olson Music</title>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -20,9 +19,7 @@
   </head>
   <body>
 
-
-<!--     MY NAV BAR -->
-
+<!--NAV BAR -->
     <div id="nav-w" class="navbar-fixed-top closed">
         <nav id="kevnav">
           <a href="#home" >Home</a>
@@ -37,29 +34,24 @@
         </div>
       </div>
 
-
 <!-- first section - Home -->
     <div id="home" class="home">
       <div class="text-vcenter">
         <h1 id="mainTitle">Kevin olson musiC</h1>
-        
-        <!-- <a href="#about" class="btn btn-default btn-lg" onclick="testClick();">WelcomE</a> -->
         <a href="#about"><img src="images/KOLogo.png"></a>
-
       </div>
     </div>
     <!-- /first section -->
 
-
     <div id="about" class="pad-section" data-speed="4" data-type="background">
-     <div class="container">
+     <div class="container" id="aboutContainer">
        <div class="row">
          <div class="col-sm-6">
            <img src="images/relayJammin.jpeg" alt="" />
          </div>
          <div class="col-sm-6" id="aboutText">
-           <h2>Welcome!</h2>
-           <p>I'm Kevin.  Located in Washington DC.  Best known for playing guitar at basketball halftime shows.  Also playing at festivals, clubs, bars, and private events with my percussive guitar routine and with my band.  Lets connect!  </p>
+           <h2>Hello!</h2>
+           <p>I'm Kevin.  Located in Washington DC.  Best known for playing guitar at basketball halftime shows.  Also playing at festivals, clubs, bars, and private events with my percussive guitar routine and with my <a href="http://www.kevinjolson.com/thesprintingturtles">band</a>.  Lets connect!  </p>
             <p class="lead text-center">
               <!-- <a href="http://www.facebook.com/kevinolsonmusic" target="_blank">Facebook</a>  -->
               <a target="_blank" href="https://open.spotify.com/album/0MNVb4kuEjiP9RIYAF2Aht"><i class="fa fa-lg fa-spotify"></i></a>
@@ -79,16 +71,12 @@
      </div> 
     </div>
 
-
     <!-- second section - Welcome -->
-    <div id="about" class="pad-section" data-speed="4" data-type="background">
-      <div class="container">
+    <div id="schedule" class="pad-section" data-speed="4" data-type="background">
+      <div class="container" id="scheduleContainer">
         <h2 style="text-align: center;">Schedule</h2>
-
           <nav class="upcoming">
             <a href="https://hokiesports.com/schedule.aspx?path=mbball"><h3 class="eventLink">December 1: Virginia Tech Men's Basketball</h3></a>
-
-          
             <a href="https://umterps.com/schedule.aspx?schedule=365"><h3 class="eventLink">January 2: Maryland Men's Basketball</h3></a>
             <a href="#"><h3 class="eventLink">January 26: Tucked Away Brewery (The Sprinting Turtles)</h3></a>
             <a href="#"><h3 class="eventLink">February 9: Caboose Commons</h3></a>
@@ -101,10 +89,9 @@
         <br />
         <br />
         <div class="flex-video widescreen">
-           <iframe src="https://www.youtube.com/embed/SjFuOuo5PMw?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-
+           <iframe src="https://www.youtube.com/embed/DZ8SVV1nboQ?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
-        
+    
       </div>
     </div>
 <!-- /second section -->
@@ -112,12 +99,9 @@
   <!-- third section - Music -->
 <div id="music" class="pad-section">
     <h2 class="text-center">My Music</h2> <hr />
-
   <div class="container">
     <h3 class="text-center">Streetside Serenade</h3>
     <iframe src="https://open.spotify.com/embed/album/0MNVb4kuEjiP9RIYAF2Aht" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" style="opacity: 0.95;"></iframe>
-
-<!--     <iframe src="https://open.spotify.com/embed/album/0MNVb4kuEjiP9RIYAF2Aht" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
 
     <h3 class="text-center">Snowfall Serenade</h3>
       <div class="col-md-6">
@@ -130,7 +114,6 @@
           </div>
          </div>
       </div>
-
 
         <div class="col-md-6">
           <div class="panel panel-default">
@@ -218,9 +201,7 @@
   </div>
 </div>
 <!-- /third section -->
-
-
-  <!-- third section - BLOG -->
+  <!-- fourth section - BLOG -->
 <div id="journey" class="pad-section">
   <div class="container">
     <h2 class="text-center">Past Events</h2> <hr />
@@ -236,238 +217,52 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol> -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <div class="description">
-                <h3>September 2014 </h3>
-                <p>My musical journey began on the streets of Blacksburg, VA at the start of my senior year at Virginia Tech.
-                I would set up with my acoustic guitar and 5W battery powered amplifer and play for an hour or so about once a month. 
-                Good size crowds would gather around and tip me as I played.  It was awesome to see that people were interested in
-                what I was creating.  My spot in front of Moes at the corner of College Avenue will always be a special place to me. </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-               <h3>November 2014</h3>
-                <p>My early street performances led to me headlining a halftime show at the Virginia Tech Men's Basketball game.  This was my 
-                first live performance on any kind of stage.  So cool to hear my guitar play over the loud PA System and capitvate a large audience.  
-                Also headlined a Virginia Tech Women's basketball game in December
-                <br />
-                Watch my first ever live performance <a href="https://youtu.be/rVbSkXtwEh4" target="_blank">HERE</a>
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-               <h3>December 2014</h3>
-                <p>First shot at a music venue came at Jammin' Java in my hometown Vienna, VA.  I was given a 20 minute set to open up for Deanna Bogart and her band.
-                This was my first time playing a long set list and at an event solely for music.  Great time making my Vienna debut.
-                <br />
-                Checkout the playlist of my set <a href="https://youtu.be/yRfa6-4NVFY?list=PLJ-J2MKdCNr8NseyxIBvbubrYsu1YZuEB" target="_blank">HERE</a>
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>April 2015</h3>
-                <p>I was given a slot to play at Virginia Tech's Relay for Life event.  It was so amazing to be a part of a great cause.  Very surreal experience being 
-                able to play my guitar on the famous Drillfield in front of the iconic Burruss Hall.  This was the coolest stage I have played on so far. 
-                Checkout the playlist from my set <a href="https://www.youtube.com/playlist?list=PLJ-J2MKdCNr_xTkqqHMzeFia5VF77-FBm" target="_blank">HERE</a></p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>May 2015</h3>
-                <p>Asked to perform at Blacksburg's Fork and Cork Festival.  Great to be a part of the entertainment and sample wine with friends.  </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>June 2015</h3>
-                <p>I got to share my guitar routine with people at the Celebrate Fairfax Fair.  This was my first big event with big name bands such as Kongos and 3 Doors Down.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>July 2015</h3>
-                <p>Opened up for Deanna Bogart for the second time in a year a Jammin' Java.  Always fun to play infront of hometown family and friends.  
-                Watch the FULL performance <a href="https://youtu.be/OZ3HmCWQhew" target="_blank">HERE</a></p>
-              </div>
-            </div>
-             <div class="item">
-              <div class="description">
-                <h3>November 2015</h3>
-                <p>Headlined the halftime show of a Virginia Tech Women's Basketball game.  I combined the songs I play during my longer set into one 6 minute medley
-                  Watch the performance <a href="https://youtu.be/Ry2T_RNg8NY" target="_blank">HERE</a></p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>January 2016</h3>
-                <p>Third time at Jammin' Java.  Played one long instrumental for my set time.  Saw some other great bands including The Duskwhales and Wylder.  Check out my 
-                  performance from the night <a href="https://youtu.be/WJIY100d0pA" target="_blank">HERE</a></p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>March 2016</h3>
-                <p>Played the National Anthem and headlined the halftime show at the Miami vs Virginia Tech Men's Basketball game.  9,000+ fans at the game. <br/>
-                  <a href="https://www.youtube.com/watch?v=B6uUgSgMPww" target="_blank">ANTHEM</a> &nbsp <a href="https://www.youtube.com/watch?v=hxEyp6asvEc" target="_blank">HALFTIME</a></p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>April 2016</h3>
-                <p>Virginia Tech's Relay for Life</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>May 2016</h3>
-                <p>Viva! Vienna! Festival.  Awesome to finally play at a town festival that I have been coming to for years!  Set time was 45 minutes.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>June 2016</h3>
-                <p>Celebrate Fairfax.  Played an hour set with a combination of originals and covers.  Great to be back at for a second year in a row.  Sound technician said I "drew in the largest crowd to the Wegman's Uncorked Stage all weekend".</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>June 2016</h3>
-                <p>Went out to Jirani Coffee House in Manassas to open up for The Watch.  Awesome band who I met after my Viva Vienna set.  Very honored that they wanted me to open for them. </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>July 2016</h3>
-                <p>Opened up for Angie Keilhauer at Jammin' Java.  She was on The Voice so it was really cool to share the stage with her.  Always an awesome time whenever I get to play at Jammin' Java in Vienna</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>August 2016</h3>
-                <p>Inivted to play a 45 minute set at The Workhouse Brewfest.  Temperature was round 100 degrees, but it was still fun to play a festival lineup and be a part of the inagural event.  Many thanks to my friend Evan, who helped me with equiptment.  </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>September 2016</h3>
-                <p>Jammin' Java... again :) .  One of my favorite places and it was cool to play in a festival style line up with some other local bands.  This was my fifth time playing at the club in the last two years.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>October 2016</h3>
-                <p>First time playing in Georgetown.  Had my own show at Gypsy Sally's.  Great fun playing infront of  lot of my friends who live in the city.  Also tons of fun being able to kick off my friend, Susie's birthday weekend.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="description">
-                <h3>November 2016</h3>
-                <p>I got to play a really cool gig at the University of Virginia' Women's Volleyball game.  I played the national anthem and got to headline the 'halftime' show.  Really fun time exploring around Charlottesville, VA for the first time</p>
-              </div>
-            </div>
-          <div class="item">
-             <div class="description">
-                <h3>November 2016</h3>
-                <p>Invited to headline another Virginia Tech Men's Basketball game.  Always a very fun time to come back to Blacksburg and perform.  Playing at Cassell is one of the coolest events I have ever and probably will ever play at.</p>
+          <div class="item active">
+            <div class="description">
+                <h3>January 2019</h3>
+                <p>Headlined a halftime show for the Maryland Men's Basketball game.  First time at College Park.  Great college basketball atmosphere and was very exciting to watch a last second win by the home team.</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>December 2016</h3>
-                <p>Opened up for local artist, Jessica Yellowitz.  Had a slight malfunction with my main guitar so had to improvise 2/3 of my set.  Was a great learning experience though to think on the spot. </p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>December 2016</h3>
-                <p>Third time opening up for Deanna Bogart and her band.  Sixth time at Jammin' Java.  Love being able to play music in my hometown.  Awesome night and great crowd!</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>December 2016</h3>
-                <p>Played at my third women's basketball game at Virginia Tech.  As always, great time playing in Cassell.  Awesome to see that the team was able to stay undefeated! </p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>February 2017</h3>
-                <p>Headlined halftime shows for both the Men's and Women's West Virginia University basketball games.  First time to Morgantown.  Played infront of a sell out crowd of 14,000 people. </p>
+                <h3>December 2018</h3>
+                <p>Headlined a halftime show for the Virginia Tech Men's Basketball game.  Was cool to play to a sell out crowd in Blacksburg!</p>
             </div>
           </div>
            <div class="item">
             <div class="description">
-                <h3>April 2017</h3>
-                <p>Opened up for Rock Creek Kings and Darlingtonia at The Velvet Lounge in Washington DC.  Really cool venue on U Street! </p>
+                <h3>October 2018</h3>
+                <p>Played a gig for an Apple Pay event near Dupont Circle in DC</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>April 2017</h3>
-                <p>Jirani Coffee House.  Opened for The Watch.  Awesome band who I met at Viva Vienna in 2016.  Second time opening for them at the coffee house.  Cool place in old town Manassas, VA! </p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>April 2017</h3>
-                <p>Played a long set at Paradise Springs Winery.  </p>
+                <h3>September 2018</h3>
+                <p>Was invited to play guitar at the main housewarming event at Caboose Commons.  Very cool to be able to participate in their opening event.  Great brewery in the Mosaic District! </p>
             </div>
           </div>
            <div class="item">
             <div class="description">
-                <h3>June 2017</h3>
-                <p>Third straight year playing at Celebrate Fairfax!  Really cool fair with awesome local and national music acts.  </p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>August 2017</h3>
-                <p>Played at the second annual Workhouse Brewfest in Lorton, VA.  Glad to have beer to cool off after performing outdoors on a hot summers day!</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>September 2017</h3>
-                <p>Set up a really cool gig at the Westover Beer Garden in Arlington VA.  I started off the evening with my acoustic set and then my band, <a href="http://www.kevinjolson.com/thesprintingturtles">The Sprinting Turtles</a> rocked out for the rest of the night playing hits from the 80s, 90s, and 2000s!  Check us out!</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>October 2017</h3>
-                <p>A friend of mine asked if I would open up for his band at Rhodeside Grill in Arlington VA.  This was my first time there.  Great bar with live music on the bottom floor.</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>October 2017</h3>
-                <p>For the second year in a row, I was asked to perform at the UVA Women's Volleyball game.  Performed the national anthem and my acoustic guitar routine.  Another great time in Charlottesville!</p>
+                <h3>June 2018</h3>
+                <p>I performed at Celebrate Fairfax for the fourth year in a row.  One of my favorite local festivals to attend and play at.  Had a nice stage and crowd.</p>
             </div>
           </div>
            <div class="item">
             <div class="description">
-                <h3>December 2017</h3>
-                <p>Fourth year in a row headlining a Men's Basketball game at Virginia Tech.  Very special to be invited back and perform on the court where I played my very first big live gig.</p>
+                <h3>May 2018</h3>
+                <p>Closed out my May performances by playing an acoustic set at my friend's Rachel and Parker's wedding.  They have been supporters of my music from my Blacksburg days so was very honored to have them ask me to perform at their wedding.  Congrats to the Leinbachs!</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>January 2018</h3>
-                <p>My band, The Sprinting Turtles, and I performed at Gypsy Sallys in Georgetown.  Second time we have been there and first time we went as a full band.  Great crowd rocking out to some classic rock covers!</p>
+                <h3>May 2018</h3>
+                <p>The Sprinting Turtles performed at Cowboy Cafe in Arlington VA.  Thanks to all of our friends who helped create a standing room only night!</p>
             </div>
           </div>
-          <div class="item">
+           <div class="item">
             <div class="description">
-                <h3>January 2018</h3>
-                <p>The Sprinting Turtles performed at Tysons Biergarten.  Had an awesome time playing rock and roll for four hours and got great feedback from the bar and from management!</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="description">
-                <h3>February 2018</h3>
-                <p>The Sprinting Turtles had a gig at Auld Shebeen in Fairfax VA.  Good time rocking out the Irish bar with some classic rock hits!</p>
+                <h3>May 2018</h3>
+                <p>The Sprinting Turtles had another great gig at TYSONS BIERGARTEN!</p>
             </div>
           </div>
           <div class="item">
@@ -478,45 +273,222 @@
           </div>
           <div class="item">
             <div class="description">
-                <h3>May 2018</h3>
-                <p>The Sprinting Turtles had another great gig at TYSONS BIERGARTEN!</p>
+                <h3>February 2018</h3>
+                <p>The Sprinting Turtles had a gig at Auld Shebeen in Fairfax VA.  Good time rocking out the Irish bar with some classic rock hits!</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>May 2018</h3>
-                <p>The Sprinting Turtles performed at Cowboy Cafe in Arlington VA.  Thanks to all of our friends who helped create a standing room only night!</p>
+                <h3>January 2018</h3>
+                <p>The Sprinting Turtles performed at Tysons Biergarten.  Had an awesome time playing rock and roll for four hours and got great feedback from the bar and from management!</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>May 2018</h3>
-                <p>Closed out my May performances by playing an acoustic set at my friend's Rachel and Parker's wedding.  They have been supporters of my music from my Blacksburg days so was very honored to have them ask me to perform at their wedding.  Congrats to the Leinbachs!</p>
+                <h3>January 2018</h3>
+                <p>My band, The Sprinting Turtles, and I performed at Gypsy Sallys in Georgetown.  Second time we have been there and first time we went as a full band.  Great crowd rocking out to some classic rock covers!</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>June 2018</h3>
-                <p>I performed at Celebrate Fairfax for the fourth year in a row.  One of my favorite local festivals to attend and play at.  Had a nice stage and crowd.</p>
+                <h3>December 2017</h3>
+                <p>Fourth year in a row headlining a Men's Basketball game at Virginia Tech.  Very special to be invited back and perform on the court where I played my very first big live gig.</p>
+            </div>
+          </div>
+           <div class="item">
+            <div class="description">
+                <h3>October 2017</h3>
+                <p>For the second year in a row, I was asked to perform at the UVA Women's Volleyball game.  Performed the national anthem and my acoustic guitar routine.  Another great time in Charlottesville!</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>September 2018</h3>
-                <p>Was invited to play guitar at the main housewarming event at Caboose Commons.  Very cool to be able to participate in their opening event.  Great brewery in the Mosaic District! </p>
+                <h3>October 2017</h3>
+                <p>A friend of mine asked if I would open up for his band at Rhodeside Grill in Arlington VA.  This was my first time there.  Great bar with live music on the bottom floor.</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>October 2018</h3>
-                <p>Played a gig for an Apple Pay event near Dupont Circle in DC</p>
+                <h3>September 2017</h3>
+                <p>Set up a really cool gig at the Westover Beer Garden in Arlington VA.  I started off the evening with my acoustic set and then my band, <a href="http://www.kevinjolson.com/thesprintingturtles">The Sprinting Turtles</a> rocked out for the rest of the night playing hits from the 80s, 90s, and 2000s!  Check us out!</p>
             </div>
           </div>
           <div class="item">
             <div class="description">
-                <h3>December 2018</h3>
-                <p>Headlined a halftime show for the Virginia Tech Men's Basketball game.  Was cool to play to a sell out crowd in Blacksburg!</p>
+                <h3>August 2017</h3>
+                <p>Played at the second annual Workhouse Brewfest in Lorton, VA.  Glad to have beer to cool off after performing outdoors on a hot summers day!</p>
             </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>June 2017</h3>
+                <p>Third straight year playing at Celebrate Fairfax!  Really cool fair with awesome local and national music acts.  </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>April 2017</h3>
+                <p>Played a long set at Paradise Springs Winery.  </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>April 2017</h3>
+                <p>Jirani Coffee House.  Opened for The Watch.  Awesome band who I met at Viva Vienna in 2016.  Second time opening for them at the coffee house.  Cool place in old town Manassas, VA! </p>
+            </div>
+          </div>
+           <div class="item">
+            <div class="description">
+                <h3>April 2017</h3>
+                <p>Opened up for Rock Creek Kings and Darlingtonia at The Velvet Lounge in Washington DC.  Really cool venue on U Street! </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>February 2017</h3>
+                <p>Headlined halftime shows for both the Men's and Women's West Virginia University basketball games.  First time to Morgantown.  Played infront of a sell out crowd of 14,000 people. </p>
+            </div>
+          </div>
+           <div class="item">
+            <div class="description">
+                <h3>December 2016</h3>
+                <p>Played at my third women's basketball game at Virginia Tech.  As always, great time playing in Cassell.  Awesome to see that the team was able to stay undefeated! </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+                <h3>December 2016</h3>
+                <p>Third time opening up for Deanna Bogart and her band.  Sixth time at Jammin' Java.  Love being able to play music in my hometown.  Awesome night and great crowd!</p>
+            </div>
+          </div>
+           <div class="item">
+            <div class="description">
+                <h3>December 2016</h3>
+                <p>Opened up for local artist, Jessica Yellowitz.  Had a slight malfunction with my main guitar so had to improvise 2/3 of my set.  Was a great learning experience though to think on the spot. </p>
+            </div>
+          </div>
+           <div class="item">
+             <div class="description">
+                <h3>November 2016</h3>
+                <p>Invited to headline another Virginia Tech Men's Basketball game.  Always a very fun time to come back to Blacksburg and perform.  Playing at Cassell is one of the coolest events I have ever and probably will ever play at.</p>
+            </div>
+          </div>
+         <div class="item">
+            <div class="description">
+              <h3>November 2016</h3>
+              <p>I got to play a really cool gig at the University of Virginia' Women's Volleyball game.  I played the national anthem and got to headline the 'halftime' show.  Really fun time exploring around Charlottesville, VA for the first time</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+              <h3>October 2016</h3>
+              <p>First time playing in Georgetown.  Had my own show at Gypsy Sally's.  Great fun playing infront of  lot of my friends who live in the city.  Also tons of fun being able to kick off my friend, Susie's birthday weekend.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+              <h3>September 2016</h3>
+              <p>Jammin' Java... again :) .  One of my favorite places and it was cool to play in a festival style line up with some other local bands.  This was my fifth time playing at the club in the last two years.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="description">
+              <h3>August 2016</h3>
+              <p>Inivted to play a 45 minute set at The Workhouse Brewfest.  Temperature was round 100 degrees, but it was still fun to play a festival lineup and be a part of the inagural event.  Many thanks to my friend Evan, who helped me with equiptment.  </p>
+            </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>July 2016</h3>
+                <p>Opened up for Angie Keilhauer at Jammin' Java.  She was on The Voice so it was really cool to share the stage with her.  Always an awesome time whenever I get to play at Jammin' Java in Vienna</p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>June 2016</h3>
+                <p>Went out to Jirani Coffee House in Manassas to open up for The Watch.  Awesome band who I met after my Viva Vienna set.  Very honored that they wanted me to open for them. </p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>June 2016</h3>
+                <p>Celebrate Fairfax.  Played an hour set with a combination of originals and covers.  Great to be back at for a second year in a row.  Sound technician said I "drew in the largest crowd to the Wegman's Uncorked Stage all weekend".</p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>May 2016</h3>
+                <p>Viva! Vienna! Festival.  Awesome to finally play at a town festival that I have been coming to for years!  Set time was 45 minutes.</p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>March 2016</h3>
+                <p>Played the National Anthem and headlined the halftime show at the Miami vs Virginia Tech Men's Basketball game.  9,000+ fans at the game. <br/>
+                  <a href="https://www.youtube.com/watch?v=B6uUgSgMPww" target="_blank">ANTHEM</a> &nbsp <a href="https://www.youtube.com/watch?v=hxEyp6asvEc" target="_blank">HALFTIME</a></p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>January 2016</h3>
+                <p>Third time at Jammin' Java.  Played one long instrumental for my set time.  Saw some other great bands including The Duskwhales and Wylder.  Check out my 
+                  performance from the night <a href="https://youtu.be/WJIY100d0pA" target="_blank">HERE</a></p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>November 2015</h3>
+                <p>Headlined the halftime show of a Virginia Tech Women's Basketball game.  I combined the songs I play during my longer set into one 6 minute medley
+                Watch the performance <a href="https://youtu.be/Ry2T_RNg8NY" target="_blank">HERE</a></p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>July 2015</h3>
+                <p>Opened up for Deanna Bogart for the second time in a year a Jammin' Java.  Always fun to play infront of hometown family and friends.  
+                Watch the FULL performance <a href="https://youtu.be/OZ3HmCWQhew" target="_blank">HERE</a></p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>June 2015</h3>
+                <p>I got to share my guitar routine with people at the Celebrate Fairfax Fair.  This was my first big event with big name bands such as Kongos and 3 Doors Down.</p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>May 2015</h3>
+                <p>Asked to perform at Blacksburg's Fork and Cork Festival.  Great to be a part of the entertainment and sample wine with friends.  </p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+                <h3>April 2015</h3>
+                <p>I was given a slot to play at Virginia Tech's Relay for Life event.  It was so amazing to be a part of a great cause.  Very surreal experience being 
+                able to play my guitar on the famous Drillfield in front of the iconic Burruss Hall.  This was the coolest stage I have played on so far. 
+                Checkout the playlist from my set <a href="https://www.youtube.com/playlist?list=PLJ-J2MKdCNr_xTkqqHMzeFia5VF77-FBm" target="_blank">HERE</a></p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+               <h3>December 2014</h3>
+                <p>First shot at a music venue came at Jammin' Java in my hometown Vienna, VA.  I was given a 20 minute set to open up for Deanna Bogart and her band.
+                This was my first time playing a long set list and at an event solely for music.  Great time making my Vienna debut.
+                <br />
+                Checkout the playlist of my set <a href="https://youtu.be/yRfa6-4NVFY?list=PLJ-J2MKdCNr8NseyxIBvbubrYsu1YZuEB" target="_blank">HERE</a>
+                </p>
+              </div>
+          </div>
+          <div class="item">
+              <div class="description">
+               <h3>November 2014</h3>
+                <p>My early street performances led to me headlining a halftime show at the Virginia Tech Men's Basketball game.  This was my 
+                first live performance on any kind of stage.  So cool to hear my guitar play over the loud PA System and capitvate a large audience.  
+                Also headlined a Virginia Tech Women's basketball game in December
+                <br />
+                Watch my first ever live performance <a href="https://youtu.be/rVbSkXtwEh4" target="_blank">HERE</a>
+                </p>
+              </div>
           </div>
         </div>
 
@@ -532,16 +504,17 @@
       </a>
     </div><!-- /.carousel --> 
 
-       <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/zlTjKrZQD5c" frameborder="0" allowfullscreen></iframe></div>
+       <div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/SjFuOuo5PMw" frameborder="0" allowfullscreen></iframe></div>
+
   </div>
 
 </div>
-<!-- /third section -->
+<!-- /fourth section -->
 
 
 
 
-<!-- fourth section - Information -->
+<!-- fifth section - Information -->
 <div id="videos" class="pad-section">
   <div class="container">
    <h2 class="text-center" id="videoTitle">Videos</h2> <hr />
@@ -564,6 +537,19 @@
       <div class="col-sm-6">
         <div class="panel panel-default">
           <div class="panel-heading">
+            <h2 class="panel-title">West Virginia Halftime Show 2017-2018</h2>
+          </div>
+          <div class="panel-body lead">
+            <div class="videos flex-video widescreen">
+              <iframe src="https://www.youtube.com/embed/zlTjKrZQD5c?rel=0&controls=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
             <h2 class="panel-title">Virginia Tech Halftime 2017-2018</h2>
           </div>
           <div class="panel-body lead">
@@ -573,8 +559,6 @@
           </div>
         </div>
       </div>
-
-
 
       <div class="col-sm-6">
         <div class="panel panel-default">
@@ -588,9 +572,6 @@
           </div>
         </div>
       </div>
-
-
-
 
        <div class="col-sm-6">
         <div class="panel panel-default">

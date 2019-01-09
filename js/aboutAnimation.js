@@ -1,10 +1,8 @@
 var timeline = new TimelineMax();
 const controller = new ScrollMagic.Controller();
-
+//fade in about container then schedule
 timeline.from("#aboutContainer", 0.7, {opacity:0});
 timeline.from("#scheduleContainer", 1, {opacity:0});
-
-
 
 const scene = new ScrollMagic.Scene({
 	triggerElement: "#about"

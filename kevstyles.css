@@ -69,11 +69,12 @@ a:hover {
 #mainTitle:hover {
   font-size: 80px;
 }
-.underline {
+/*.underline{
   position: relative;
   color: white;
 }
-.underline:after {
+
+.underline:after{
   display: block;
   position: absolute;
   left: 0;
@@ -84,12 +85,14 @@ a:hover {
   content: "";
   transition: width 0.2s;
 }
+
 .underline:hover {
   color: white;
 }
 .underline:hover:after {
   width: 100%;
-}
+
+}*/
 .svg-wrapper:hover .shape {
   -webkit-animation: 0.5s draw linear forwards;
   animation: 0.5s draw linear forwards;
@@ -319,6 +322,7 @@ footer .glyphicon:hover {
 }
 #aboutText a {
   color: white;
+  text-decoration: underline;
 }
 #aboutImage {
   width: 100%;
