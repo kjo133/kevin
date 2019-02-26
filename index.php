@@ -74,28 +74,22 @@
         <div class="container" id="scheduleContainer">
             <h2 style="text-align: center;">Schedule</h2>
             <nav class="upcoming">
-                <a href="https://hokiesports.com/schedule.aspx?path=mbball">
-                    <h3 class="eventLink">December 1: Virginia Tech Men's Basketball</h3>
-                </a>
-                <a href="https://umterps.com/schedule.aspx?schedule=365">
-                    <h3 class="eventLink">January 2: Maryland Men's Basketball</h3>
-                </a>
-                <a href="#">
-                    <h3 class="eventLink">January 26: Tucked Away Brewery (The Sprinting Turtles)</h3>
-                </a>
-                <a href="#">
-                    <h3 class="eventLink">February 9: Caboose Commons</h3>
-                </a>
-                <a href="#">
-                    <h3 class="eventLink">February 22: CoWork Cafe</h3>
-                </a>
-                <a href="#">
+                <a href="https://www.facebook.com/events/223239985257321/" target="_blank">
                     <h3 class="eventLink">March 7: Light Horse (The Sprinting Turtles)</h3>
                 </a>
-                <a href="#">
+                <a href="https://mosaicdistrict.com/fun/" target="_blank">
+                    <h3 class="eventLink">April 6: Art Blooms at Mosaic - Noon - Solo</h3>
+                </a>
+                <a href="https://mosaicdistrict.com/fun/" target="_blank">
+                    <h3 class="eventLink">April 6: Art Blooms at Mosaic - 2:30 - The Sprinting Turtles</h3>
+                </a>
+                 <a href="https://www.paradisespringswinery.com/Events/Events-in-Paradise" target="_blank">
                     <h3 class="eventLink">May 18: Paradise Springs Winery</h3>
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/events/398649364226845/" target="_blank">
+                    <h3 class="eventLink">July 13: Westover Beer Garden</h3>
+                </a>
+                <a href="https://www.paradisespringswinery.com/Events/Events-in-Paradise" target="_blank">
                     <h3 class="eventLink">December 7: Paradise Springs Winery(The Sprinting Turtles)</h3>
                 </a>
             </nav>
