@@ -1,17 +1,16 @@
 /* styles for portfolio site */
 @font-face {
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   font-style: normal;
   font-weight: normal;
-  src: local('Trajan Pro Bold'), url('trajan pro bold.woff') format('woff');
+  src: local("Trajan Pro Bold"), url("trajan pro bold.woff") format("woff");
 }
 @font-face {
-  font-family: 'menlotus';
+  font-family: "menlotus";
   font-style: normal;
   font-weight: normal;
-  src: local('menlotus'), url('menlotus.ttf') format('ttf');
+  src: local("menlotus"), url("menlotus.ttf") format("ttf");
 }
-
 
 html,
 body {
@@ -19,9 +18,7 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-
-
-
+  background-color: #111;
 }
 /*li {
   font-family: 'Trajan Pro Bold';
@@ -49,166 +46,214 @@ a:hover {
   padding: 0;
 }
 
-.home{
-    /*padding-top: 50px; 
+.home {
+  /*padding-top: 50px; 
      If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! 
     padding-bottom: 50px;
     */
-    height: 100%; width: 100%;
-    text-align: center;
-    color: #f8f8f8;
-    /*background: url(images/designhome2.png) no-repeat center center;*/
-    background: url(images/dark_wood.png) repeat center center;
-    background-color: black;
-    background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #f8f8f8;
+  /*background: url(images/designhome2.png) no-repeat center center;*/
+  background: url(images/dark_wood.png) repeat center center;
+  background-color: black;
+  background-size: cover;
 }
-#title{
+#title {
   color: #305ba0;
   padding-top: 0;
 }
 
-.welcome{
-  height: 350px; width: 100%;
+.welcome {
+  height: 350px;
+  width: 100%;
   position: absolute;
   margin-top: 150px;
-  p{
-    font-family: 'Open Sans Condensed';
+  p {
+    font-family: "Open Sans Condensed";
     font-size: 25px;
-
   }
-  a{
+  a {
     color: white;
-    :hover{
-      color:#c4c4c4;
+    :hover {
+      color: #c4c4c4;
     }
   }
 }
 
 /*ROTATING WORDS*/
-.rw-wrapper{
-
+.rw-wrapper {
   width: 55%;
   position: relative;
   padding-top: 200px;
   margin-left: 27%;
   bottom: 0;
-
-  
 }
-.rw-sentence{
-  margin:0;
+.rw-sentence {
+  margin: 0;
   text-align: left;
-  span{
+  span {
     color: white;
-    
+
     font-size: 9vmin;
     font-weight: normal;
-    font-family: 'Open Sans Condensed';
+    font-family: "Open Sans Condensed";
   }
 }
 
-.rw-words{
+.rw-words {
   display: inline;
 
   text-indent: 10px;
 }
-.rw-words span{
+.rw-words span {
   position: absolute;
   opacity: 0;
   overflow: hidden;
   color: #6b739d;
 }
-.rw-words-1 span{
+.rw-words-1 span {
   -webkit-animation: rotateWords 12s linear infinite 0s;
   -ms-animation: rotateWords 12s linear infinite 0s;
   animation: rotateWords 12s linear infinite 0s;
 }
-.rw-words span:nth-child(2) { 
-  -webkit-animation-delay: 4s; 
-  -ms-animation-delay: 4s; 
+.rw-words span:nth-child(2) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
   animation-delay: 4s;
   color: #6b889d;
 }
-.rw-words span:nth-child(3) { 
-  -webkit-animation-delay: 8s; 
-  -ms-animation-delay: 8s; 
-  animation-delay: 8s; 
-  color: #6b739d; 
+.rw-words span:nth-child(3) {
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+  color: #6b739d;
 }
 
 @-webkit-keyframes rotateWords {
-    0% { opacity: 1; -webkit-animation-timing-function: ease-in; height: 0px; }
-    8% { opacity: 1; height: 60px; }
-    19% { opacity: 1; height: 60px; }
-    25% { opacity: 0; height: 60px; }
-    100% { opacity: 0; }
+  0% {
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in;
+    height: 0px;
+  }
+  8% {
+    opacity: 1;
+    height: 60px;
+  }
+  19% {
+    opacity: 1;
+    height: 60px;
+  }
+  25% {
+    opacity: 0;
+    height: 60px;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @-ms-keyframes rotateWords {
-    0% { opacity: 1; -ms-animation-timing-function: ease-in; height: 0px; }
-    8% { opacity: 1; height: 60px; }
-    19% { opacity: 1; height: 60px; }
-    25% { opacity: 0; height: 60px; }
-    100% { opacity: 0; }
+  0% {
+    opacity: 1;
+    -ms-animation-timing-function: ease-in;
+    height: 0px;
+  }
+  8% {
+    opacity: 1;
+    height: 60px;
+  }
+  19% {
+    opacity: 1;
+    height: 60px;
+  }
+  25% {
+    opacity: 0;
+    height: 60px;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes rotateWords {
-    0% { opacity: 1; -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; height: 0px; }
-    8% { opacity: 1; height: 60px; }
-    19% { opacity: 1; height: 60px; }
-    25% { opacity: 0; height: 60px; }
-    100% { opacity: 0; }
-}
-
-@keyframes rotateWords {
-    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
-    8% { opacity: 1; height: 95px; }
-    19% { opacity: 1; height: 95px; }
-    25% { opacity: 0; height: 95px; }
-    100% { opacity: 0; }
-}
-
-.webtitle{
-  height: 300px;
-  margin: 0 auto;
-  margin-top: 100px;
-  span{
-    vertical-align: middle;
-    font-size: 90px;
-    bottom: 0;
-
+  0% {
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    height: 0px;
+  }
+  8% {
+    opacity: 1;
+    height: 60px;
+  }
+  19% {
+    opacity: 1;
+    height: 60px;
+  }
+  25% {
+    opacity: 0;
+    height: 60px;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
+@keyframes rotateWords {
+  0% {
+    opacity: 1;
+    animation-timing-function: ease-in;
+    height: 0px;
+  }
+  8% {
+    opacity: 1;
+    height: 95px;
+  }
+  19% {
+    opacity: 1;
+    height: 95px;
+  }
+  25% {
+    opacity: 0;
+    height: 95px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
-.work{
+.webtitle {
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  span {
+    vertical-align: middle;
+    font-size: 90px;
+    bottom: 0;
+  }
+}
+
+.work {
   background-color: #305ba0;
   color: white;
 }
 
-
 #musicsite {
   height: 650px;
-  font-family: 'Trajan Pro Bold';
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
+  font-family: "Trajan Pro Bold";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/debut.JPG) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  
-  
 }
 
 #elc {
   height: 600px;
-  font-family: 'Candara';
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
+  font-family: "Candara";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/elc.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -217,31 +262,25 @@ a:hover {
   color: white;
 }
 
-#turtle{
+#turtle {
   height: 600px;
-  font-family: 'Trajan Pro Bold';
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
-  url(images/turtleOrig.jpg) no-repeat center center;
+  font-family: "Trajan Pro Bold";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/turtleOrig.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  span{
-    font-family: 'Permanent Marker', cursive;
+  span {
+    font-family: "Permanent Marker", cursive;
   }
 }
 
 #maaddix {
   height: 600px;
-  font-family: 'Trajan Pro Bold';
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
+  font-family: "Trajan Pro Bold";
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/sunset.jpeg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -250,11 +289,8 @@ a:hover {
   color: white;
 }
 
-
-
-
 #music {
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   color: white;
   background: url(images/relay.png) no-repeat center center fixed;
   display: table;
@@ -267,13 +303,9 @@ a:hover {
   background-size: cover;
 }
 
-
-
-
-
 footer {
   background: black;
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   padding: 20px 0;
 }
 footer p {

@@ -1,15 +1,15 @@
 /* styles for portfolio site */
 @font-face {
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   font-style: normal;
   font-weight: normal;
-  src: local('Trajan Pro Bold'), url('trajan pro bold.woff') format('woff');
+  src: local("Trajan Pro Bold"), url("trajan pro bold.woff") format("woff");
 }
 @font-face {
-  font-family: 'menlotus';
+  font-family: "menlotus";
   font-style: normal;
   font-weight: normal;
-  src: local('menlotus'), url('menlotus.ttf') format('ttf');
+  src: local("menlotus"), url("menlotus.ttf") format("ttf");
 }
 html,
 body {
@@ -17,6 +17,7 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+  background-color: #111;
 }
 /*li {
   font-family: 'Trajan Pro Bold';
@@ -68,7 +69,7 @@ a:hover {
   margin-top: 150px;
 }
 .welcome p {
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   font-size: 25px;
 }
 .welcome a {
@@ -93,7 +94,7 @@ a:hover {
   color: white;
   font-size: 9vmin;
   font-weight: normal;
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
 }
 .rw-words {
   display: inline;
@@ -227,7 +228,7 @@ a:hover {
 }
 #musicsite {
   height: 650px;
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/debut.JPG) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -237,7 +238,7 @@ a:hover {
 }
 #elc {
   height: 600px;
-  font-family: 'Candara';
+  font-family: "Candara";
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/elc.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -247,7 +248,7 @@ a:hover {
 }
 #turtle {
   height: 600px;
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/turtleOrig.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -256,11 +257,11 @@ a:hover {
   color: white;
 }
 #turtle span {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 #maaddix {
   height: 600px;
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/sunset.jpeg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -269,7 +270,7 @@ a:hover {
   color: white;
 }
 #music {
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   color: white;
   background: url(images/relay.png) no-repeat center center fixed;
   display: table;
@@ -283,7 +284,7 @@ a:hover {
 }
 footer {
   background: black;
-  font-family: 'Trajan Pro Bold';
+  font-family: "Trajan Pro Bold";
   padding: 20px 0;
 }
 footer p {
