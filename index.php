@@ -74,20 +74,20 @@
         <div class="container" id="scheduleContainer">
             <h2 style="text-align: center;">Schedule</h2>
             <nav class="upcoming">
-                <a href="https://www.facebook.com/events/223239985257321/" target="_blank">
-                    <h3 class="eventLink">March 7: Light Horse (The Sprinting Turtles)</h3>
-                </a>
-                <a href="https://mosaicdistrict.com/fun/" target="_blank">
-                    <h3 class="eventLink">April 6: Art Blooms at Mosaic - Noon - Solo</h3>
-                </a>
-                <a href="https://mosaicdistrict.com/fun/" target="_blank">
-                    <h3 class="eventLink">April 6: Art Blooms at Mosaic - 2:30 - The Sprinting Turtles</h3>
-                </a>
                  <a href="https://www.paradisespringswinery.com/Events/Events-in-Paradise" target="_blank">
                     <h3 class="eventLink">May 18: Paradise Springs Winery</h3>
                 </a>
+                 <a href="http://celebratefairfax.com/stages/craft-beer-garden-silent-disco/" target="_blank">
+                    <h3 class="eventLink">June 8: Celebrate Fairfax</h3>
+                </a>
+                <a href="https://www.coworkcafe.com/coworkcafe-at-clarendon/" target="_blank">
+                    <h3 class="eventLink">June 14: CoWork Cafe (The Sprinting Turtles)</h3>
+                </a>
                 <a href="https://www.facebook.com/events/398649364226845/" target="_blank">
                     <h3 class="eventLink">July 13: Westover Beer Garden</h3>
+                </a>
+                <a href="https://fareharbor.com/embeds/book/ridetheboomerang/items/25920/availability/254856936/book/?fbclid=IwAR3JBPNqGhCBc3BXh2sJkK1uADzKC_T1BKdVku1MaMWgN8O30CDrGlxVW-k&full-items=yes" target="_blank">
+                    <h3 class="eventLink">July 28: Boomerang Pirate Ship (The Sprinting Turtles)</h3>
                 </a>
                 <a href="https://www.paradisespringswinery.com/Events/Events-in-Paradise" target="_blank">
                     <h3 class="eventLink">December 7: Paradise Springs Winery(The Sprinting Turtles)</h3>
@@ -226,8 +226,42 @@
             <hr />
             <!--  Carousel -->
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                        <div class="description">
+                            <h3>April 2019</h3>
+                            <p>Very greatful to be invited to play guitar at the Korean American Attorney's Gala at Fogo De Chao.  Met some very nice people
+                            and got to have a great meal.  Short set, but very greatful for the invite!</p>
+                        </div>
+                </div>
+                <div class="item">
+                        <div class="description">
+                            <h3>April 2019</h3>
+                            <p>Had two amazing sets at the Art Blooms at Mosaic Festival in Merrifield.  Started off with my solo acoustic guitar followed by my band.  
+                            Always love having a professional sound crew running the show to make everything sound great!  Was also tons of fun to have a huge group of people dancing and singing along to some classic rock hits!</p>
+                        </div>
+                </div>
+                <div class="item">
+                        <div class="description">
+                            <h3>February 2019</h3>
+                            <p>Performed at CoWork Cafe in Arlington VA.  Great spot for people to come work during the day and at night its a pleasant spot for a dessert, cup of coffee, or wine/beer</p>
+                        </div>
+                </div>
+                <div class="item">
+                        <div class="description">
+                            <h3>February 2019</h3>
+                            <p>Performed for the second time at Caboose Commons.  
+                            Loved being able to play music at my favorite local brewery!  
+                            Happy to bring some acoustic guitar music to everyone's morning!</p>
+                        </div>
+                </div>
+                <div class="item">
+                        <div class="description">
+                            <h3>January 2019</h3>
+                            <p>Played at show with my band at Tucked Away Brewery in Manassas VA.  Really nice spot with great beer and activities for people to do.</p>
+                        </div>
+                </div>
+                    <div class="item ">
                         <div class="description">
                             <h3>January 2019</h3>
                             <p>Headlined a halftime show for the Maryland Men's Basketball game. First time at College Park.
