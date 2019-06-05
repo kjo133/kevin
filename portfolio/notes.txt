@@ -1,4 +1,213 @@
-<!DOCTYPE html>
+Old Home
+    HTML
+    <!-- Home -->
+
+        <div class="home">
+            <!-- <div class="intro-message"> -->
+            <div class="welcome">
+                <section class="rw-wrapper">
+                    <h2 class="rw-sentence">
+                        <span>Hello!
+                            <a target="_blank" href="https://www.linkedin.com/in/kevin-olson-2040a062"><i class="fa fa-linkedin-square"></i>
+                            </a>
+                            <a target="_blank" href="https://github.com/kjo133/"><i class="fa fa-github-alt"></i></a>
+                            <a target="_blank" href="mailto:kevino93@vt.edu"><i class="fa fa-envelope"></i></a>
+                        <br /> I am</span>
+                        <div class="rw-words rw-words-1">
+                            <span>Kevin</span>
+                            <span>a developer</span>
+                            <span>a musician</span>
+                        </div>
+
+                    </h2>
+                </section>
+
+
+            </div>
+            <!--end container -->
+        </div>
+        <!-- /.home -->
+
+    CSS
+    .home {
+  /*padding-top: 50px; 
+     If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! 
+    padding-bottom: 50px;
+    */
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(images/dark_wood.png) repeat center center;
+  background-color: black;
+  background-size: cover;
+}
+
+.welcome {
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  margin-top: 150px;
+  p {
+    font-family: "Open Sans Condensed";
+    font-size: 25px;
+  }
+  a {
+    color: white;
+    :hover {
+      color: #c4c4c4;
+    }
+  }
+}
+
+/*ROTATING WORDS*/
+.rw-wrapper {
+  width: 55%;
+  position: relative;
+  padding-top: 200px;
+  margin-left: 27%;
+  bottom: 0;
+}
+.rw-sentence {
+  margin: 0;
+  text-align: left;
+  span {
+    color: white;
+
+    font-size: 9vmin;
+    font-weight: normal;
+    font-family: "Open Sans Condensed";
+  }
+}
+
+.rw-words {
+  display: inline;
+
+  text-indent: 10px;
+}
+.rw-words span {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  color: #6b739d;
+}
+.rw-words-1 span {
+  -webkit-animation: rotateWords 12s linear infinite 0s;
+  -ms-animation: rotateWords 12s linear infinite 0s;
+  animation: rotateWords 12s linear infinite 0s;
+}
+.rw-words span:nth-child(2) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+  color: #6b889d;
+}
+.rw-words span:nth-child(3) {
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+  color: #6b739d;
+}
+
+@-webkit-keyframes rotateWords {
+  0% {
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in;
+    height: 0px;
+  }
+  8% {
+    opacity: 1;
+    height: 60px;
+  }
+  19% {
+    opacity: 1;
+    height: 60px;
+  }
+  25% {
+    opacity: 0;
+    height: 60px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes rotateWords {
+  0% {
+    opacity: 1;
+    -ms-animation-timing-function: ease-in;
+    height: 0px;
+  }
+  8% {
+    opacity: 1;
+    height: 60px;
+  }
+  19% {
+    opacity: 1;
+    height: 60px;
+  }
+  25% {
+    opacity: 0;
+    height: 60px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rotateWords {
+  0% {
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    height: 0px;
+  }
+  8% {
+    opacity: 1;
+    height: 60px;
+  }
+  19% {
+    opacity: 1;
+    height: 60px;
+  }
+  25% {
+    opacity: 0;
+    height: 60px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rotateWords {
+  0% {
+    opacity: 1;
+    animation-timing-function: ease-in;
+    height: 0px;
+  }
+  8% {
+    opacity: 1;
+    height: 95px;
+  }
+  19% {
+    opacity: 1;
+    height: 95px;
+  }
+  25% {
+    opacity: 0;
+    height: 95px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+//////////////////////////////
+landing page design
+HTML
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -56,30 +265,12 @@
     <!-- Home -->
 
     <div class="home">
-        <!-- <div class="intro-message"> -->
-        <div class="welcome">
-            <section class="rw-wrapper">
-                <h2 class="rw-sentence">
-                    <span>Hello!
-                        <a target="_blank" href="https://www.linkedin.com/in/kevin-olson-2040a062"><i class="fa fa-linkedin-square"></i>
-                        </a>
-                        <a target="_blank" href="https://github.com/kjo133/"><i class="fa fa-github-alt"></i></a>
-                        <a target="_blank" href="mailto:kevino93@vt.edu"><i class="fa fa-envelope"></i></a>
-
-
-                     <br /> I am</span>
-                    <div class="rw-words rw-words-1">
-                        <span>Kevin</span>
-                        <span>a developer</span>
-                        <span>a musician</span>
-                    </div>
-
-                </h2>
-            </section>
-
-
+        <div class="container text-center">
+            <h1>Kevin Olson</h1>
+            <img src="images/guitarist.png" alt="avatar">
+            <h2>Front End Developer and Musician</h2>
         </div>
-        <!--end container -->
+
     </div>
     <!-- /.home -->
     <div id="musicsite" class="pad-section fade" data-speed="4">
@@ -98,7 +289,7 @@
     </div>
 
 
-    <div id="elc" class="pad-section" data-speed="4" data-type="background">
+    <div id="elc" class="pad-section fade" data-speed="4" data-type="background">
         <div class="container text-center">
             <div class="row">
                 <div class="webtitle">
@@ -112,7 +303,7 @@
         </div>
     </div>
 
-    <div id="turtle" class="pad-section" data-speed="4" data-type="background">
+    <div id="turtle" class="pad-section fade" data-speed="4" data-type="background">
         <div class="container text-center">
             <div class="row">
                 <div class="webtitle">
@@ -121,14 +312,13 @@
                     <p>Quick website I put together for my band. </p>
                     <a href="http://kevinjolson.com/thesprintingturtles" target="_blank" class="btn btn-primary">Visit Site!</a>
                 </div>
-
             </div>
         </div>
     </div>
 
 
 
-    <div id="maaddix" class="pad-section" data-speed="4" data-type="background">
+    <div id="maaddix" class="pad-section fade" data-speed="4" data-type="background">
         <div class="container text-center">
             <div class="row">
                 <div class="webtitle">
@@ -137,6 +327,21 @@
                     <p>Maaddix is a site for Mountain Air Addicts. Developed the site for a friend of mine. It is a place where
                         travelers can view and share photos with one another.</p>
                     <a href="http://maaddix.com/dev" class="btn btn-primary">Visit Site!</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="bees" class="pad-section fade" data-speed="4" data-type="background">
+        <div class="container text-center">
+            <div class="row">
+                <div class="webtitle">
+                    <!-- <h1>Kevin Olson Music</h1> -->
+                    <span>Bees Volleyball</span>
+                    <p>This is a fun site that I put together for my volleyball team. Javascript code that dynmically builds
+                        the bio sections based on who is on the team for the current season</p>
+                    <a href="http://kevinjolson.com/bees" class="btn btn-primary">Visit Site!</a>
                 </div>
 
             </div>

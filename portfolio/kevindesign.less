@@ -47,178 +47,54 @@ a:hover {
 }
 
 .home {
-  /*padding-top: 50px; 
-     If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! 
-    padding-bottom: 50px;
-    */
   height: 100%;
   width: 100%;
-  text-align: center;
-  color: #f8f8f8;
-  /*background: url(images/designhome2.png) no-repeat center center;*/
-  background: url(images/dark_wood.png) repeat center center;
-  background-color: black;
-  background-size: cover;
-}
-#title {
-  color: #305ba0;
-  padding-top: 0;
-}
-
-.welcome {
-  height: 350px;
-  width: 100%;
-  position: absolute;
-  margin-top: 150px;
+  background-color: #222;
+  color: #fff;
+  padding-top: 150px;
   p {
-    font-family: "Open Sans Condensed";
-    font-size: 25px;
+    padding-top: 100px;
   }
   a {
     color: white;
-    :hover {
-      color: #c4c4c4;
+    font-size: 40px;
+  }
+}
+
+#about {
+  width: 100%;
+  height: 950px;
+  background: #fff;
+  color: #222;
+  padding-top: 50px;
+  font-family: "Raleway", sans-serif;
+  overflow-y: scroll;
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 23px;
+  }
+  .row div {
+    margin-top: 50px;
+    h1 {
+      font-size: 27px;
     }
-  }
-}
-
-/*ROTATING WORDS*/
-.rw-wrapper {
-  width: 55%;
-  position: relative;
-  padding-top: 200px;
-  margin-left: 27%;
-  bottom: 0;
-}
-.rw-sentence {
-  margin: 0;
-  text-align: left;
-  span {
-    color: white;
-
-    font-size: 9vmin;
-    font-weight: normal;
-    font-family: "Open Sans Condensed";
-  }
-}
-
-.rw-words {
-  display: inline;
-
-  text-indent: 10px;
-}
-.rw-words span {
-  position: absolute;
-  opacity: 0;
-  overflow: hidden;
-  color: #6b739d;
-}
-.rw-words-1 span {
-  -webkit-animation: rotateWords 12s linear infinite 0s;
-  -ms-animation: rotateWords 12s linear infinite 0s;
-  animation: rotateWords 12s linear infinite 0s;
-}
-.rw-words span:nth-child(2) {
-  -webkit-animation-delay: 4s;
-  -ms-animation-delay: 4s;
-  animation-delay: 4s;
-  color: #6b889d;
-}
-.rw-words span:nth-child(3) {
-  -webkit-animation-delay: 8s;
-  -ms-animation-delay: 8s;
-  animation-delay: 8s;
-  color: #6b739d;
-}
-
-@-webkit-keyframes rotateWords {
-  0% {
-    opacity: 1;
-    -webkit-animation-timing-function: ease-in;
-    height: 0px;
-  }
-  8% {
-    opacity: 1;
-    height: 60px;
-  }
-  19% {
-    opacity: 1;
-    height: 60px;
-  }
-  25% {
-    opacity: 0;
-    height: 60px;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@-ms-keyframes rotateWords {
-  0% {
-    opacity: 1;
-    -ms-animation-timing-function: ease-in;
-    height: 0px;
-  }
-  8% {
-    opacity: 1;
-    height: 60px;
-  }
-  19% {
-    opacity: 1;
-    height: 60px;
-  }
-  25% {
-    opacity: 0;
-    height: 60px;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes rotateWords {
-  0% {
-    opacity: 1;
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    height: 0px;
-  }
-  8% {
-    opacity: 1;
-    height: 60px;
-  }
-  19% {
-    opacity: 1;
-    height: 60px;
-  }
-  25% {
-    opacity: 0;
-    height: 60px;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes rotateWords {
-  0% {
-    opacity: 1;
-    animation-timing-function: ease-in;
-    height: 0px;
-  }
-  8% {
-    opacity: 1;
-    height: 95px;
-  }
-  19% {
-    opacity: 1;
-    height: 95px;
-  }
-  25% {
-    opacity: 0;
-    height: 95px;
-  }
-  100% {
-    opacity: 0;
+    h3 {
+      font-size: 20px;
+      color: #7b45ab;
+    }
+    p {
+      font-size: 17px;
+    }
+    // &:first-child {
+    //   border-right: solid #e1e1e1;
+    // }
+    &:nth-child(2) {
+      border-left: solid #e1e1e1;
+    }
   }
 }
 
@@ -238,15 +114,98 @@ a:hover {
   color: white;
 }
 
+#projects {
+  width: 100%;
+  height: 1200px;
+  background: #222;
+  padding-top: 50px;
+  overflow-y: scroll;
+  h1 {
+    color: #fff;
+    padding-bottom: 30px;
+  }
+}
+.projectContainer {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 300px;
+  overflow: hidden;
+
+  div {
+    background-size: cover;
+    position: relative;
+    transition: 0.5s;
+    &:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    }
+    a {
+      font-size: 30px;
+      color: white;
+      transition: 0.5s;
+      text-decoration: none;
+      &:hover {
+        transform: scale(1.1);
+        font-size: 35px;
+      }
+    }
+  }
+}
+.projectContainer > div:nth-child(1) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/debut.JPG) no-repeat center center;
+  a {
+    font-family: "Trajan Pro Bold";
+  }
+}
+.projectContainer > div:nth-child(2) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/turtleOrig.jpg) no-repeat center center;
+  a {
+    font-family: "Permanent Marker", cursive;
+  }
+}
+.projectContainer > div:nth-child(3) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/elc.jpg) no-repeat center center;
+  h1 {
+    font-family: "Candara";
+  }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.projectContainer > div:nth-child(4) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/sunset.jpeg) no-repeat center center;
+}
+.projectContainer > div:nth-child(5) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/bees.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+// .projectContainer > a {
+//   display: flex;
+//   justify-content: center;
+//   alight-items: center;
+//   img {
+//     height: 100%;
+//     width: 100%;
+//     object-fit: cover;
+//   }
+// }
+
 #musicsite {
   height: 650px;
   font-family: "Trajan Pro Bold";
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/debut.JPG) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
   color: white;
 }
 
