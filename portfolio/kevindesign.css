@@ -47,9 +47,10 @@ a:hover {
 .home {
   height: 100%;
   width: 100%;
-  background-color: #222;
+  background: url(images/hero.jpg);
+  background-size: cover;
   color: #fff;
-  padding-top: 50px;
+  padding-top: 250px;
 }
 .home p {
   padding-top: 100px;
@@ -88,7 +89,7 @@ a:hover {
 }
 #about .row div h3 {
   font-size: 20px;
-  color: #7b45ab;
+  color: #5dddf7;
 }
 #about .row div p {
   font-size: 17px;
@@ -147,7 +148,7 @@ a:hover {
   font-size: 35px;
 }
 .projectContainer > div:nth-child(1) {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/debut.JPG) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/ss.jpg) no-repeat center center;
 }
 .projectContainer > div:nth-child(1) a {
   font-family: "Trajan Pro Bold";
@@ -223,6 +224,10 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   color: white;
+}
+#designs {
+  height: 600px;
+  background-color: #111;
 }
 #music {
   font-family: "Trajan Pro Bold";
